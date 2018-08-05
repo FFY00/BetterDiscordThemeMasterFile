@@ -51,6 +51,7 @@
 .activityFeed-28jde9 .header-1RC2Wb,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da,
+.chat-3bRxxu .divider-3gKybi span,
 .modal-1UGdnR .headerFill-adLl4x,
 .modal-1UGdnR .footer-2yfCgX {
     background: none !important;
@@ -264,6 +265,10 @@
     background-color: var(--transparency) !important;
 }
 
+.chat-3bRxxu .divider-3gKybi:before {
+    height: 0 !important;
+}
+
 .chat-3bRxxu .isMentioned-N-h9aa {
     background: rgba(250,166,26,.1) !important;
 }
@@ -276,6 +281,22 @@
 .chat-3bRxxu .da-messagesWrapper .da-messages .da-default h1 {
     text-align: center;
     color: var(--primary-text) !important;
+}
+
+.chat-3bRxxu .divider-3gKybi:not(.red-1YQ4s7) > span {
+    color: var(--secondary-text);
+}
+
+.chat-3bRxxu .divider-3gKybi:not(.red-1YQ4s7) > div {
+    background: var(--secondary-text);
+}
+
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr > span {
+    color: #f04747;
+}
+
+.chat-3bRxxu .divider-3gKybi.dividerRed-MKoLlr > div {
+    background: #f04747;
 }
 
 .chat-3bRxxu .channelTextArea-1LDbYG {
