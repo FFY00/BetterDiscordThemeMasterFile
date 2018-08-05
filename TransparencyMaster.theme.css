@@ -27,57 +27,7 @@
 .title-3qD0b-,
 .messagesWrapper-3lZDfY,
 .members-1998pB,
-.chat-3bRxxu form,
-.layer-3QrUeG,
-.typing-2GQL18,
-.da-container:not(.modal-3HD5ck):not(.container-3cGP6G),
-.da-layers,
-.da-uiStandardSidebarView .da-sidebarRegion,
-.da-uiStandardSidebarView .da-contentRegion,
-.da-activityFeed .header-1RC2Wb,
-.da-chat .channelTextArea-1LDbYG .inner-zqa7da {
-    background: none !important;
-}
-
-.da-contextMenu {
-    z-index: 9999;
-}
-
-.container-1UB9sr,
-.channelTextArea-rNsIhG {
-    border: 0 !important;
-}
-
-.newMessagesBar-mujexs,
-.da-base {
-    border-radius: 0 !important;
-/* Scrollbar
-   ========================================================================== */
-
-::-webkit-scrollbar-thumb {
-    border-color: transparent !important; 
-    background: rgba(0,0,0,0.4) !important;
-    border-radius: 0 !important;
-} 
-
-::-webkit-scrollbar, 
-::-webkit-scrollbar-track-piece {
-    border-color: transparent !important; 
-    background: none !important;
-} 
-
-::-webkit-scrollbar-corner {
-    display: none !important;
-}
-
-/* Fixes/Resets
-   ========================================================================== */
-
-#friends .headerBar-UHpsPw,
-.content-yTz4x3,
-.title-3qD0b-,
-.messagesWrapper-3lZDfY,
-.members-1998pB,
+.chat-3bRxxu,
 .chat-3bRxxu form,
 .layer-3QrUeG,
 .typing-2GQL18,
