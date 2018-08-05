@@ -1,3 +1,8 @@
+Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. Credits to:
+- Juicysteak117#1835
+- Satoru#4997
+- Asteria#5675
+
 ## Installing Theme
 
 Just download the config file and you're good to go.
