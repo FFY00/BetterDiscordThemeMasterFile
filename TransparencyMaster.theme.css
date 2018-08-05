@@ -109,42 +109,42 @@
     text-align: center;
 }
 
-.da-guildsWrapper {
+.guildsWrapper-5TJh6A {
     width: 125px;
 }
 
-.da-guildsWrapper,
-.da-guildsWrapper .guildsAdd-21_IdK {
+.guildsWrapper-5TJh6A,
+.guildsWrapper-5TJh6A .guildsAdd-21_IdK {
     background: var(--transparency) !important;
 }
 
-.da-guildsWrapper .da-homeIcon {
+.guildsWrapper-5TJh6A .da-homeIcon {
     background: var(--bg-home-btn) no-repeat center/cover;
 }
 
-.da-guildsWrapper .da-homeIcon g,
-.da-guildsWrapper .da-guilds .da-guildSeparator {
+.guildsWrapper-5TJh6A .da-homeIcon g,
+.guildsWrapper-5TJh6A .da-guilds .da-guildSeparator {
     display: none;
 }
 
-.da-guildsWrapper .da-scrollerWrap {
+.guildsWrapper-5TJh6A .da-scrollerWrap {
     width: 150px;
 }
 
-.da-guildsWrapper .da-guilds {
+.guildsWrapper-5TJh6A .da-guilds {
     display: flex;
     flex-flow: row wrap;
     padding-left: 0;
     align-content: flex-start;
 }
 
-.da-guildsWrapper .da-guilds .guild-1EfMGQ {
+.guildsWrapper-5TJh6A .da-guilds .guild-1EfMGQ {
     position: relative;
     margin-left: 8px;
     margin-top: 8px;
 }
 
-.da-guildsWrapper .da-guilds .da-friendsOnline {
+.guildsWrapper-5TJh6A .da-guilds .da-friendsOnline {
     color: var(--secondary-text) !important;
 	position: relative;
     width: 100%;
@@ -152,30 +152,30 @@
     margin-top: 5px;
 }
 
-.da-guildsWrapper .da-guilds .guild-1EfMGQ.unread-qLkInr::before {
+.guildsWrapper-5TJh6A .da-guilds .guild-1EfMGQ.unread-qLkInr::before {
     left: -2px;
     top: 5px;
     z-index:9000;
 }
 
-.da-guildsWrapper .da-guilds .guild-1EfMGQ:first-child {
+.guildsWrapper-5TJh6A .da-guilds .guild-1EfMGQ:first-child {
     position: relative; 
     left: 0;
     margin: auto;
     margin-top: 15px;
 }
 
-.da-guildsWrapper .da-guilds .guild-1EfMGQ.selected-ML3OIq:before {
+.guildsWrapper-5TJh6A .da-guilds .guild-1EfMGQ.selected-ML3OIq:before {
     display: none;
 }
 
-.da-guildsWrapper .da-guilds .da-dms {
+.guildsWrapper-5TJh6A .da-guilds .da-dms {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
-.da-guildsWrapper .da-guilds .da-dms .guild-1EfMGQ {
+.guildsWrapper-5TJh6A .da-guilds .da-dms .guild-1EfMGQ {
     left: 0;
 }
 
