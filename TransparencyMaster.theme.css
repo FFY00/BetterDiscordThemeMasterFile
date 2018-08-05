@@ -33,7 +33,7 @@
 .da-layers,
 .da-uiStandardSidebarView .da-sidebarRegion,
 .da-uiStandardSidebarView .da-contentRegion,
-.da-activityFeed .header-1RC2Wb,
+.activityFeed-28jde9 .header-1RC2Wb,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da {
     background: none !important;
@@ -332,9 +332,9 @@
 /* Games Tab
    ========================================================================== */
 
-.da-activityFeed,
-.da-activityFeed .dock-10JPBX .dockItem-2kQDqg:hover,
-.da-activityFeed .card-7JP0BX {
+.activityFeed-28jde9,
+.activityFeed-28jde9 .dock-10JPBX .dockItem-2kQDqg:hover,
+.activityFeed-28jde9 .card-7JP0BX {
     background-color: var(--transparency) !important;
 }
 
