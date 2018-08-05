@@ -35,7 +35,8 @@
 .ui-standard-sidebar-view .da-contentRegion,
 .activityFeed-28jde9 .header-1RC2Wb,
 .chat-3bRxxu form,
-.chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da {
+.chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da,
+.modal-1UGdnR .headerFill-adLl4x {
     background: none !important;
 }
 
@@ -45,7 +46,8 @@
 
 .container-1UB9sr,
 .channelTextArea-rNsIhG,
-.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5 {
+.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
+.modal-1UGdnR .tabBarContainer-1s1u-z {
     border: 0 !important;
 }
 
@@ -383,10 +385,30 @@
 .modal-1UGdnR .topSectionNormal-2-vo2m,
 .modal-1UGdnR .body-3ND3kc,
 .modal-1UGdnR .body-3ND3kc .note-QfFU8y textarea:focus,
-.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5 {
+.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
+.modal-1UGdnR .topSectionPlaying-1J5E4n,
+.modal-1UGdnR .tabBarContainer-1s1u-z {
     background: var(--transparency) !important;
 }
 
-.modal-1UGdnR .body-3ND3kc .userInfoSectionHeader-CBvMDh {
+.modal-1UGdnR .body-3ND3kc .userInfoSectionHeader-CBvMDh,
+.modal-1UGdnR .tabBarContainer-1s1u-z .tabBarItem-1b8RUP,
+.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .listName-3w10cx {
     color: var(--primary-text) !important;
+}
+
+.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .guildNick-3uAm3i {
+    color: var(--secondary-text) !important;
+}
+
+.modal-1UGdnR .tabBarContainer-1s1u-z .tabBarItem-1b8RUP:not(.selected),
+.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q {
+    opacity: var(--dimmed);
+}
+
+.modal-1UGdnR .tabBarContainer-1s1u-z .tabBarItem-1b8RUP.selected,
+.modal-1UGdnR .tabBarContainer-1s1u-z .tabBarItem-1b8RUP:hover,
+.modal-1UGdnR .listRow-hutiT_:hover .listRowContent-3Kih4Q {
+    opacity: 1;
+    border-bottom-color: var(--primary-text) !important;
 }
