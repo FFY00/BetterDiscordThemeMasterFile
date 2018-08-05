@@ -1,15 +1,4 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz#8016","version":"Config"}*//{}
-/* 
-    Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given.
-    Credits to:
-    - @Juicysteak117#1835
-    - @Satoru#4997
-    - @Asteria#5675
-
-    Step 1: Go to User Settings
-    Step 2: Select Zere's Fork
-    Step 3: Enable Normalize Classes
-*/
 
 /*### CONFIGURATION ###*/
 :root {
