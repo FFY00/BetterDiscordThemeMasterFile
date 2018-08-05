@@ -1,6 +1,9 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz#8016","version":"Config"}*//{}
 
-/*### CONFIGURATION ###*/
+/* ==========================================================================
+   Configuration
+   ========================================================================== */
+
 :root {
     --bg-app: url(https://images3.alphacoders.com/734/734139.png);
     --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png);
