@@ -1,5 +1,7 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz#8016","version":"Config"}*//{}
 
+@import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/TransparencyMaster.theme.css);
+
 /* Configuration
    ========================================================================== */
 
@@ -9,7 +11,5 @@
     --primary-text: #fff;
     --secondary-text: #ddd;
     --transparency: rgba(0, 0, 0, .6);
-    --dimmed: .5; /* values from 0.0 to 1.0 */
+    --dimmed: .5; 
 }
-
-@import url(https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency);
