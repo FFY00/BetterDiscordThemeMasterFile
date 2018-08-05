@@ -1,0 +1,24 @@
+//META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz#8016","version":"Config"}*//{}
+/* 
+    Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given.
+    Credits to:
+    - @Juicysteak117#1835
+    - @Satoru#4997
+    - @Asteria#5675
+
+    Step 1: Go to User Settings
+    Step 2: Select Zere's Fork
+    Step 3: Enable Normalize Classes
+*/
+
+/*### CONFIGURATION ###*/
+:root {
+    --bg-app: url(https://images3.alphacoders.com/734/734139.png);
+    --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png);
+    --primary-text: #fff;
+    --secondary-text: #ddd;
+    --transparency: rgba(0, 0, 0, .6);
+    --dimmed: .5; /* values from 0.0 to 1.0 */
+}
+
+@import url(https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency);
