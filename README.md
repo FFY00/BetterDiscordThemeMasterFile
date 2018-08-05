@@ -5,7 +5,7 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 
 ## Installing Theme
 
-Just download the config file and you're good to go.
+Just download the config.theme.css file in CONFIG folder and you're good to go.
 
 ## Themes/Support/Suggestions
 
