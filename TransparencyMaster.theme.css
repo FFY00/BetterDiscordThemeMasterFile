@@ -1,0 +1,298 @@
+//META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz","version":"2.0"}*//{}
+
+/*### SCROLLBAR ###*/
+::-webkit-scrollbar-thumb {
+    border-color: transparent !important; 
+    background: rgba(0,0,0,0.4) !important;
+    border-radius: 0 !important;
+} 
+
+::-webkit-scrollbar, 
+::-webkit-scrollbar-track-piece {
+    border-color: transparent !important; 
+    background: none !important;
+} 
+
+::-webkit-scrollbar-corner {
+    display: none !important;
+}
+
+/*### FIXES/RESET ###*/
+#friends .headerBar-UHpsPw,
+.content-yTz4x3,
+.title-3qD0b-,
+.messagesWrapper-3lZDfY,
+.members-1998pB,
+.chat-3bRxxu form,
+.layer-3QrUeG,
+.typing-2GQL18,
+.da-container:not(.modal-3HD5ck):not(.container-3cGP6G),
+.da-layers,
+.da-uiStandardSidebarView .da-sidebarRegion,
+.da-uiStandardSidebarView .da-contentRegion,
+.da-activityFeed .header-1RC2Wb {
+    background: none !important;
+}
+
+.da-contextMenu {
+    z-index: 9999;
+}
+
+.container-1UB9sr,
+.channelTextArea-rNsIhG {
+    border: 0 !important;
+}
+
+.newMessagesBar-mujexs,
+.da-base {
+    border-radius: 0 !important;
+}
+
+#friends .headerBar-UHpsPw,
+.da-channels .da-container .da-header,
+.da-title,
+.da-searchBar {
+    box-shadow: none !important;
+}
+
+/*### APP BACKGROUND ###*/
+.da-appMount {
+	background: var(--bg-app) center/cover no-repeat;
+	animation: none;
+}
+
+/*### EMOJI PICKER ###*/
+.da-emojiPicker {
+    border-radius: 5px !important;
+    border: 0 !important;
+}
+
+.da-emojiPicker .da-header {
+    border: 0 !important;
+    background-color: #2b2b2b;
+}
+
+.da-emojiPicker .da-header .da-searchBar {
+    border-radius: 0 !important;
+}
+
+
+/*### TITLE BAR ###*/
+.da-titleBar {
+    margin-top: 0;
+    padding-top: 4px;
+    background: var(--transparency) !important;
+}
+
+/*### GUILDS ###*/
+#bd-pub-li {
+	position: absolute;
+    top: 0px;
+    left: 0px;
+}
+
+#bd-pub-li #bd-pub-button {
+    position: absolute;
+    width: 100%;
+    text-align: center;
+}
+
+.da-guildsWrapper {
+    width: 125px;
+    background: var(--transparency) !important;
+}
+
+.da-guildsWrapper .da-homeIcon {
+    background: var(--bg-home-btn) no-repeat center/cover;
+}
+
+.da-guildsWrapper .da-homeIcon g,
+.da-guildsWrapper .da-guilds .da-guildSeparator {
+    display: none;
+}
+
+.da-guildsWrapper .da-scrollerWrap {
+    width: 150px;
+}
+
+.da-guildsWrapper .da-guilds {
+    display: flex;
+    flex-flow: row wrap;
+    padding-left: 0;
+    align-content: flex-start;
+}
+
+.da-guildsWrapper .da-guilds .guild-1EfMGQ {
+	  position: relative;
+	  margin-left: 8px;
+    margin-top: 8px;
+}
+
+.da-guildsWrapper .da-guilds .da-friendsOnline {
+    color: var(--secondary-text) !important;
+	position: relative;
+    width: 100%;
+    margin: auto;
+    margin-top: 5px;
+}
+
+.da-guildsWrapper .da-guilds .guild-1EfMGQ.unread-qLkInr::before {
+	  left: -2px;
+    top: 5px;
+    z-index:9000;
+}
+
+.da-guildsWrapper .da-guilds .guild-1EfMGQ:first-child {
+    position: relative; 
+    left: 0;
+    margin: auto;
+    margin-top: 15px;
+}
+
+.da-guildsWrapper .da-guilds .guild-1EfMGQ.selected-ML3OIq:before {
+    display: none;
+}
+
+.da-guildsWrapper .da-guilds .da-dms {
+    width: 100%;
+    display: flex;
+    flex-flow: row wrap;
+}
+
+.da-guildsWrapper .da-guilds .da-dms .guild-1EfMGQ {
+    left: 0;
+}
+
+/*### CHANNELS ###*/
+.da-channels,
+.da-channels .contentConnectedVoice-qL-YrL:active,
+.da-channels .contentHoveredText-2D9B-x,
+.da-channels .contentSelectedText-3wUhMi,
+.da-channels .container-2Rl01u .da-header:hover,
+.da-channels .container-2Rl01u.popout-open .da-header,
+.da-channels .wrapper-2NJDcI {
+    background: var(--transparency) !important;
+}
+
+.da-channels .nameDefault-2DI02H,
+.da-channels .nameHovered-1gxhWH,
+.da-channels .nameCollapsed-34uFWo,
+.da-channels .nameHoveredCollapsed-2orEWB,
+.da-channels .nameDefaultText-24KCy5,
+.da-channels .nameHoveredText-1uO31y,
+.da-channels .nameMutedText-3Vj4bM {
+    color: var(--primary-text) !important;
+}
+
+.da-channels .nameDefaultText-24KCy5 {
+    opacity: var(--dimmed) !important;
+}
+
+/*### PRIVATE CHANNELS ###*/
+.da-privateChannels .channel.selected a,
+.da-privateChannels .channel:hover a {
+    background: var(--transparency) !important;
+}
+
+.da-privateChannels .channel .channel-name {
+    opacity: var(--dimmed) !important;
+    color: var(--primary-text) !important;
+}
+
+.da-privateChannels .channel.selected .channel-name,
+.da-privateChannels .channel:hover .channel-name {
+    opacity: 1 !important;
+}
+
+.da-privateChannels .channel .channel-activity {
+    color: var(--secondary-text) !important;
+}
+
+/*### CHAT AREA ###*/
+.da-chat,
+.da-chat .da-aka,
+.da-chat .embedInner-1-fpTo,
+.da-chat .attachment-33OFj0 {
+    background-color: var(--transparency) !important;
+}
+
+.da-chat .isMentioned-N-h9aa {
+    background: rgba(250,166,26,.1) !important;
+}
+
+.da-chat .da-newMessageBar {
+    left: 0 !important;
+    width: 100% !important;
+}
+
+.da-chat .da-messagesWrapper .da-messages .da-default h1 {
+    text-align: center;
+    color: var(--primary-text) !important;
+}
+
+/*### MEMBERS ###*/
+.da-membersWrap .memberOnline-1CIh-0:hover .da-content,
+.da-membersWrap .memberOnline-1CIh-0.popout-open .da-content {
+    background-color: var(--transparency) !important;
+}
+
+/*### COG VIEW ###*/
+.da-uiStandardSidebarView,
+.da-uiStandardSidebarView .container-2VW0UT,
+.da-uiStandardSidebarView .itemDefault-3Jdr52:hover,
+.da-uiStandardSidebarView .ui-tab-bar-item:not(.selected):hover,
+.da-uiStandardSidebarView .input-cIJ7To,
+.da-uiStandardSidebarView .authedApp-mj2Hmd,
+.da-uiStandardSidebarView .userInfoViewing-16kqK3,
+.da-uiStandardSidebarView .formNotice-2_hHWR,
+.da-uiStandardSidebarView .accountList-33MS45,
+.da-uiStandardSidebarView .select-2TCrqx .Select-control,
+.da-uiStandardSidebarView .container-CpszHS,
+.da-uiStandardSidebarView .card-FDVird:before,
+.da-uiStandardSidebarView .card-FDVird .game-name-input:hover,
+.da-uiStandardSidebarView .card-FDVird .game-name-input:focus,
+.da-uiStandardSidebarView .user-settings-games .not-detected {
+    background-color: var(--transparency) !important;
+}
+
+.da-uiStandardSidebarView .cardPrimaryEditable-3KtE4g {
+    background-color: var(--transparency);
+}
+
+.da-uiStandardSidebarView .header-2RyJ0Y,
+.da-uiStandardSidebarView .ui-tab-bar-header,
+.da-uiStandardSidebarView .title-3sZWYQ {
+    color: var(--primary-text) !important;
+}
+
+.da-uiStandardSidebarView .description-3_Ncsb,
+.da-uiStandardSidebarView .desc-2Dttbk,
+.da-uiStandardSidebarView .hoverRoll-YK53gQ,
+.da-uiStandardSidebarView .ui-switch-item .style-description {
+    color: var(--primary-text) !important;
+}
+
+.da-uiStandardSidebarView .ui-tab-bar-header {
+    font-size: 12px !important;
+    font-weight: 700 !important;
+    line-height: 16px !important;
+    text-transform: uppercase;
+}
+
+/*### GAMES ###*/
+.da-activityFeed,
+.da-activityFeed .dock-10JPBX .dockItem-2kQDqg:hover,
+.da-activityFeed .card-7JP0BX {
+    background-color: var(--transparency) !important;
+}
+
+/*### FRIENDS ###*/
+#friends,
+#friends .friends-table .friends-row:hover,
+#friends .tab-bar .tab-bar-item:not(.selected):not(.tab-bar-item-primary):hover {
+    background-color: var(--transparency) !important;
+}
+
+#friends .friends-column {
+    color: var(--primary-text) !important;
+}
