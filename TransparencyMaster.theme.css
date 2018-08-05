@@ -31,8 +31,8 @@
 .typing-2GQL18,
 .da-container:not(.modal-3HD5ck):not(.container-3cGP6G):not(.isMentionedCozy-3isp7y),
 .da-layers,
-.da-uiStandardSidebarView .da-sidebarRegion,
-.da-uiStandardSidebarView .da-contentRegion,
+.ui-standard-sidebar-view .da-sidebarRegion,
+.ui-standard-sidebar-view .da-contentRegion,
 .activityFeed-28jde9 .header-1RC2Wb,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da {
@@ -287,42 +287,42 @@
 /* COG View
    ========================================================================== */
 
-.da-uiStandardSidebarView,
-.da-uiStandardSidebarView .container-2VW0UT,
-.da-uiStandardSidebarView .itemDefault-3Jdr52:hover,
-.da-uiStandardSidebarView .ui-tab-bar-item:not(.selected):hover,
-.da-uiStandardSidebarView .input-cIJ7To,
-.da-uiStandardSidebarView .authedApp-mj2Hmd,
-.da-uiStandardSidebarView .userInfoViewing-16kqK3,
-.da-uiStandardSidebarView .formNotice-2_hHWR,
-.da-uiStandardSidebarView .accountList-33MS45,
-.da-uiStandardSidebarView .select-2TCrqx .Select-control,
-.da-uiStandardSidebarView .container-CpszHS,
-.da-uiStandardSidebarView .card-FDVird:before,
-.da-uiStandardSidebarView .card-FDVird .game-name-input:hover,
-.da-uiStandardSidebarView .card-FDVird .game-name-input:focus,
-.da-uiStandardSidebarView .user-settings-games .not-detected {
+.ui-standard-sidebar-view,
+.ui-standard-sidebar-view .container-2VW0UT,
+.ui-standard-sidebar-view .itemDefault-3Jdr52:hover,
+.ui-standard-sidebar-view .ui-tab-bar-item:not(.selected):hover,
+.ui-standard-sidebar-view .input-cIJ7To,
+.ui-standard-sidebar-view .authedApp-mj2Hmd,
+.ui-standard-sidebar-view .userInfoViewing-16kqK3,
+.ui-standard-sidebar-view .formNotice-2_hHWR,
+.ui-standard-sidebar-view .accountList-33MS45,
+.ui-standard-sidebar-view .select-2TCrqx .Select-control,
+.ui-standard-sidebar-view .container-CpszHS,
+.ui-standard-sidebar-view .card-FDVird:before,
+.ui-standard-sidebar-view .card-FDVird .game-name-input:hover,
+.ui-standard-sidebar-view .card-FDVird .game-name-input:focus,
+.ui-standard-sidebar-view .user-settings-games .not-detected {
     background-color: var(--transparency) !important;
 }
 
-.da-uiStandardSidebarView .cardPrimaryEditable-3KtE4g {
+.ui-standard-sidebar-view .cardPrimaryEditable-3KtE4g {
     background-color: var(--transparency);
 }
 
-.da-uiStandardSidebarView .header-2RyJ0Y,
-.da-uiStandardSidebarView .ui-tab-bar-header,
-.da-uiStandardSidebarView .title-3sZWYQ {
+.ui-standard-sidebar-view .header-2RyJ0Y,
+.ui-standard-sidebar-view .ui-tab-bar-header,
+.ui-standard-sidebar-view .title-3sZWYQ {
     color: var(--primary-text) !important;
 }
 
-.da-uiStandardSidebarView .description-3_Ncsb,
-.da-uiStandardSidebarView .desc-2Dttbk,
-.da-uiStandardSidebarView .hoverRoll-YK53gQ,
-.da-uiStandardSidebarView .ui-switch-item .style-description {
+.ui-standard-sidebar-view .description-3_Ncsb,
+.ui-standard-sidebar-view .desc-2Dttbk,
+.ui-standard-sidebar-view .hoverRoll-YK53gQ,
+.ui-standard-sidebar-view .ui-switch-item .style-description {
     color: var(--primary-text) !important;
 }
 
-.da-uiStandardSidebarView .ui-tab-bar-header {
+.ui-standard-sidebar-view .ui-tab-bar-header {
     font-size: 12px !important;
     font-weight: 700 !important;
     line-height: 16px !important;
