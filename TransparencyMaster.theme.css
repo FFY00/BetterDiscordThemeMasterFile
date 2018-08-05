@@ -1,5 +1,17 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz","version":"2.0"}*//{}
 
+/* Configuration
+   ========================================================================== */
+
+   :root {
+    --bg-app: url(https://images3.alphacoders.com/734/734139.png);
+    --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png);
+    --primary-text: #fff;
+    --secondary-text: #ddd;
+    --transparency: rgba(0, 0, 0, .6);
+    --dimmed: .5; 
+}
+
 /* Scrollbar
    ========================================================================== */
 
@@ -167,12 +179,6 @@
     background: var(--transparency) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ {
-    position: relative;
-    margin-left: 8px;
-    margin-top: 8px;
-}
-
 .guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child {
     position: relative; 
     left: 0;
@@ -180,17 +186,23 @@
     margin-top: 15px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ.unread-qLkInr::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+    position: relative;
+    margin-left: 8px;
+    margin-top: 8px;
+}
+
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
     left: -2px;
     top: 5px;
     z-index:9000;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ.selected-ML3OIq::before {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
     display: none;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ .homeIcon-1FoKUJ {
+.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ .homeIcon-1FoKUJ {
     background: var(--bg-home-btn) no-repeat center/cover;
 }
 
