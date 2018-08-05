@@ -27,16 +27,15 @@
 .title-3qD0b-,
 .messagesWrapper-3lZDfY,
 .members-1998pB,
-.chat-3bRxxu,
-.chat-3bRxxu form,
 .layer-3QrUeG,
 .typing-2GQL18,
-.da-container:not(.modal-3HD5ck):not(.container-3cGP6G),
+.da-container:not(.modal-3HD5ck):not(.container-3cGP6G):not(.isMentionedCozy-3isp7y),
 .da-layers,
 .da-uiStandardSidebarView .da-sidebarRegion,
 .da-uiStandardSidebarView .da-contentRegion,
 .da-activityFeed .header-1RC2Wb,
-.da-chat .channelTextArea-1LDbYG .inner-zqa7da {
+.chat-3bRxxu form,
+.chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da {
     background: none !important;
 }
 
@@ -233,23 +232,23 @@
 /* Chat Area
    ========================================================================== */
 
-.da-chat,
-.da-chat .da-aka,
-.da-chat .embedInner-1-fpTo,
-.da-chat .attachment-33OFj0 {
+.chat-3bRxxu,
+.chat-3bRxxu .da-aka,
+.chat-3bRxxu .embedInner-1-fpTo,
+.chat-3bRxxu .attachment-33OFj0 {
     background-color: var(--transparency) !important;
 }
 
-.da-chat .isMentioned-N-h9aa {
+.chat-3bRxxu .isMentioned-N-h9aa {
     background: rgba(250,166,26,.1) !important;
 }
 
-.da-chat .da-newMessageBar {
+.chat-3bRxxu .da-newMessageBar {
     left: 0 !important;
     width: 100% !important;
 }
 
-.da-chat .da-messagesWrapper .da-messages .da-default h1 {
+.chat-3bRxxu .da-messagesWrapper .da-messages .da-default h1 {
     text-align: center;
     color: var(--primary-text) !important;
 }
