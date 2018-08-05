@@ -5,7 +5,7 @@
 
 ::-webkit-scrollbar-thumb {
     border-color: transparent !important; 
-    background: rgba(0,0,0,0.4) !important;
+    background: var(--transparency) !important;
     border-radius: 0 !important;
 } 
 
@@ -44,12 +44,14 @@
 }
 
 .container-1UB9sr,
-.channelTextArea-rNsIhG {
+.channelTextArea-rNsIhG,
+.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5 {
     border: 0 !important;
 }
 
 .newMessagesBar-mujexs,
-.da-base {
+.da-base,
+.da-emojiPicker .da-header .da-searchBar {
     border-radius: 0 !important;
 }
 
@@ -79,10 +81,6 @@
 .da-emojiPicker .da-header {
     border: 0 !important;
     background-color: #2b2b2b;
-}
-
-.da-emojiPicker .da-header .da-searchBar {
-    border-radius: 0 !important;
 }
 
 /* Title Bar
@@ -373,4 +371,22 @@
 
 .userPopout-3XzG_A .note-3kmerW {
     color: var(--secondary-text) !important;
+}
+
+/* Modal
+   ========================================================================== */
+
+.modal-1UGdnR .inner-1JeGVc > .flex-1xMQg5 {
+    background: var(--bg-app) center/cover no-repeat;
+}
+
+.modal-1UGdnR .topSectionNormal-2-vo2m,
+.modal-1UGdnR .body-3ND3kc,
+.modal-1UGdnR .body-3ND3kc .note-QfFU8y textarea:focus,
+.modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5 {
+    background: var(--transparency) !important;
+}
+
+.modal-1UGdnR .body-3ND3kc .userInfoSectionHeader-CBvMDh {
+    color: var(--primary-text) !important;
 }
