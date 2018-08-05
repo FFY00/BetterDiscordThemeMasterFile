@@ -15,4 +15,4 @@ If you find a problem or would like to give feedback/suggestions or need support
 
 ## Get Latest Update Quickly
 
-You can clear the Discord cache by opening File Explorer, typing %APPDATA%/Discord/Cache into the address bar, and then deleting everything therein.
+You can clear the Discord cache by opening File Explorer, typing `%APPDATA%/Discord/Cache` into the address bar, and then deleting everything therein.
