@@ -9,7 +9,11 @@
     border-radius: 0 !important;
 } 
 
-::-webkit-scrollbar, 
+::-webkit-scrollbar {
+    border-color: transparent !important; 
+    background: none !important;
+}
+
 ::-webkit-scrollbar-track-piece {
     border-color: transparent !important; 
     background: none !important;
@@ -17,6 +21,17 @@
 
 ::-webkit-scrollbar-corner {
     display: none !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-thumb {
+    border-color: transparent !important; 
+    background: var(--transparency) !important;
+    border-radius: 0 !important;
+}
+
+.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
+    border-color: transparent !important; 
+    background: none !important;
 }
 
 /* Fixes/Resets
@@ -36,7 +51,8 @@
 .activityFeed-28jde9 .header-1RC2Wb,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da,
-.modal-1UGdnR .headerFill-adLl4x {
+.modal-1UGdnR .headerFill-adLl4x,
+.modal-1UGdnR .footer-2yfCgX {
     background: none !important;
 }
 
@@ -53,14 +69,16 @@
 
 .newMessagesBar-mujexs,
 .da-base,
-.da-emojiPicker .da-header .da-searchBar {
+.da-emojiPicker .da-header .da-searchBar,
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd {
     border-radius: 0 !important;
 }
 
 #friends .headerBar-UHpsPw,
 .channels-Ie2l6A .container-2Rl01u .header-2o-2hj,
 .da-title,
-.da-searchBar {
+.da-searchBar,
+.modal-1UGdnR .footer-2yfCgX {
     box-shadow: none !important;
 }
 
@@ -384,7 +402,8 @@
 /* Modal
    ========================================================================== */
 
-.modal-1UGdnR .inner-1JeGVc > .flex-1xMQg5 {
+.modal-1UGdnR .inner-1JeGVc > .flex-1xMQg5,
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck {
     background: var(--bg-app) center/cover no-repeat;
 }
 
@@ -393,7 +412,10 @@
 .modal-1UGdnR .body-3ND3kc .note-QfFU8y textarea:focus,
 .modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
 .modal-1UGdnR .topSectionPlaying-1J5E4n,
-.modal-1UGdnR .tabBarContainer-1s1u-z {
+.modal-1UGdnR .tabBarContainer-1s1u-z,
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .flex-1xMQg5,
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd,
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd .message-2qRu38 {
     background: var(--transparency) !important;
 }
 
