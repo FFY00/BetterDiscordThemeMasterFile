@@ -277,7 +277,9 @@
    ========================================================================== */
 
 .da-membersWrap .memberOnline-1CIh-0:hover .da-content,
-.da-membersWrap .memberOnline-1CIh-0.popout-open .da-content {
+.da-membersWrap .memberOnline-1CIh-0.popout-open .da-content,
+.da-membersWrap .memberOffline-2lN7gt:hover .da-content,
+.da-membersWrap .memberOffline-2lN7gt.popout-open .da-content {
     background-color: var(--transparency) !important;
 }
 
@@ -346,4 +348,28 @@
 
 #friends .friends-column {
     color: var(--primary-text) !important;
+}
+
+/* User Popout
+   ========================================================================== */
+
+.userPopout-3XzG_A {
+    background: var(--bg-app) center/cover no-repeat;
+}
+
+.userPopout-3XzG_A .header-2BwW8b,
+.userPopout-3XzG_A .body-3iLsc4,
+.userPopout-3XzG_A .footer-1fjuF6,
+.userPopout-3XzG_A .quickMessage-1yeL4E,
+.userPopout-3XzG_A .note-3kmerW textarea:focus {
+    background: var(--transparency) !important;
+}
+
+.userPopout-3XzG_A .tip-2ab612,
+.userPopout-3XzG_A .bodyTitle-Y0qMQz {
+    color: var(--primary-text) !important;
+}
+
+.userPopout-3XzG_A .note-3kmerW {
+    color: var(--secondary-text) !important;
 }
