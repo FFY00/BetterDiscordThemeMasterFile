@@ -253,6 +253,16 @@
     color: var(--primary-text) !important;
 }
 
+.chat-3bRxxu .channelTextArea-1LDbYG {
+    padding-top: 4px !important;
+    margin-bottom: 20px !important;
+}
+
+.chat-3bRxxu .typing-2GQL18 {
+    bottom: -3px;
+    padding-left: 55px;
+}
+
 /* Members
    ========================================================================== */
 
