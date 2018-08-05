@@ -53,6 +53,7 @@
 .ui-standard-sidebar-view .sidebar-region,
 .ui-standard-sidebar-view .content-region,
 .activityFeed-28jde9 .header-1RC2Wb,
+.userPopout-3XzG_A .activity-11LB_k,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da,
 .chat-3bRxxu .divider-3gKybi span,
@@ -61,14 +62,16 @@
     background: none !important;
 }
 
-.contextMenu-HLZMGh {
-    z-index: 9999;
+.contextMenu-HLZMGh,
+.popout-3sVMXz {
+    z-index: 9999 !important;
 }
 
 .container-1UB9sr,
 .channelTextArea-rNsIhG,
 .modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
-.modal-1UGdnR .tabBarContainer-1s1u-z {
+.modal-1UGdnR .tabBarContainer-1s1u-z,
+.userPopout-3XzG_A .footer-1fjuF6 {
     border: 0 !important;
 }
 
@@ -86,6 +89,8 @@
 .modal-1UGdnR .footer-2yfCgX {
     box-shadow: none !important;
 }
+
+
 
 /* App Background
    ========================================================================== */
@@ -265,10 +270,6 @@
     background-color: var(--transparency) !important;
 }
 
-.chat-3bRxxu .divider-3gKybi:before {
-    height: 0 !important;
-}
-
 .chat-3bRxxu .isMentioned-N-h9aa {
     background: rgba(250,166,26,.1) !important;
 }
@@ -281,6 +282,10 @@
 .chat-3bRxxu .messages-3amgkR > .default-1VPH9n > h1 {
     text-align: center;
     color: var(--primary-text) !important;
+}
+
+.chat-3bRxxu .messages-3amgkR > .divider-3gKybi:before {
+    height: 0 !important;
 }
 
 .chat-3bRxxu .messages-3amgkR > .divider-3gKybi:not(.dividerRed-MKoLlr) > span {
