@@ -44,8 +44,12 @@
 .members-1998pB,
 .layer-3QrUeG,
 .typing-2GQL18,
-.da-container:not(.container-2VW0UT):not(.container-3cGP6G):not(.modal-3HD5ck):not(.isMentionedCozy-3isp7y),
-.da-layers,
+.container-2lgZY8,
+.container-PNkimc,
+.container-1UB9sr,
+.container-2Thooq,
+.container-35XQWE,
+.layers-3iHuyZ,
 .ui-standard-sidebar-view .sidebar-region,
 .ui-standard-sidebar-view .content-region,
 .activityFeed-28jde9 .header-1RC2Wb,
@@ -134,7 +138,7 @@
 }
 
 .guildsWrapper-5TJh6A {
-    background: var(--transparency) !important;
+    background-color: var(--transparency) !important;
     width: 125px;
 }
 
@@ -206,7 +210,7 @@
 .channels-Ie2l6A .container-2Rl01u.popout-open .header-2o-2hj,
 .channels-Ie2l6A .wrapper-2NJDcI,
 .channels-Ie2l6A .unreadBottom-1px0d1 .bar-30k2ka {
-    background: var(--transparency) !important;
+    background-color: var(--transparency) !important;
 }
 
 .channels-Ie2l6A .nameDefault-2DI02H,
