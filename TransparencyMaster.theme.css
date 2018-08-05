@@ -195,6 +195,7 @@
 }
 
 .channels-Ie2l6A .nameDefault-2DI02H,
+.channels-Ie2l6A .ameUnreadText-DfkrI4,
 .channels-Ie2l6A .nameHovered-1gxhWH,
 .channels-Ie2l6A .nameCollapsed-34uFWo,
 .channels-Ie2l6A .nameHoveredCollapsed-2orEWB,
@@ -202,6 +203,10 @@
 .channels-Ie2l6A .nameHoveredText-1uO31y,
 .channels-Ie2l6A .nameMutedText-3Vj4bM {
     color: var(--primary-text) !important;
+}
+
+.channels-Ie2l6A .unread-1Dp-OI {
+    background-color: var(--primary-text);
 }
 
 .channels-Ie2l6A .nameDefaultText-24KCy5,
