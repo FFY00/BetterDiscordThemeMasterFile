@@ -16,3 +16,14 @@ If you find a problem or would like to give feedback/suggestions or need support
 ## Get Latest Update Quickly
 
 You can clear the Discord cache by opening File Explorer, typing `%APPDATA%/Discord/Cache` into the address bar, and then deleting everything therein.
+
+## Screenshots
+
+![screeny 1](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/1.png)
+![screeny 2](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/2.png)
+![screeny 3](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/3.png)
+![screeny 4](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/4.png)
+![screeny 5](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/5.png)
+![screeny 6](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/6.png)
+![screeny 7](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/7.png)
+![screeny 8](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/8.png)
