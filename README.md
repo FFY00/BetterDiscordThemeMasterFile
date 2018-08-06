@@ -1,4 +1,4 @@
-Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.THEME.CSS
+Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS
 
 Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. Credits to:
 - Juicysteak117#1835
