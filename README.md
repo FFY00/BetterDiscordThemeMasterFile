@@ -1,9 +1,12 @@
-## Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.THEME.CSS
+Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.THEME.CSS
 
 Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. Credits to:
 - Juicysteak117#1835
 - Satoru#4997
 - Asteria#5675
+
+## Current discord users using my theme
+Zankokuhime#5572, ka1412#6390, NotWhoYouThink#9443, DarkNeko97#9680, moff#0243
 
 ## Installing Transparency Theme
 
