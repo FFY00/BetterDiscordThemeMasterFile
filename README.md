@@ -3,9 +3,9 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 - Satoru#4997
 - Asteria#5675
 
-## Installing Theme
+## Installing Transparency Theme
 
-Just download the config.theme.css file in CONFIG folder and you're good to go.
+Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
 
 ## Themes/Support/Suggestions
 
