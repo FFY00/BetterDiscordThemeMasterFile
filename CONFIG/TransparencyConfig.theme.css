@@ -1,15 +1,18 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord Twiistrz#8016","author":"Twiistrz#8016","version":"Config"}*//{}
-
 @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/TransparencyMaster.theme.css);
 
 /* Configuration
    ========================================================================== */
 
-:root {
-    --bg-app: url(https://images3.alphacoders.com/734/734139.png);
+   :root {
+    --bg-app: url(https://images8.alphacoders.com/631/631739.jpg);
+    --bg-popout: url(https://images3.alphacoders.com/734/734139.png); /* new */
     --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png);
     --primary-text: #fff;
     --secondary-text: #ddd;
+    --default-color: rgba(52, 152, 219, .8); /* new */
+    --default-hover-color: rgba(41, 128, 185, .8); /* new */
     --transparency: rgba(0, 0, 0, .6);
+    --scrollbar-size: 5px; /* new, not yet implemented */
     --dimmed: .5; 
 }
