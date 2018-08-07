@@ -10,7 +10,7 @@
     --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png);
     --primary-text: #ffffff; /* Default: #ffffff */
     --secondary-text: #dddddd; /* Default: #dddddd */
-    --default-color: rgba(219, 220, 221, .8); /* Default: rgba(219, 220, 221, 0.8) */
+    --default-color: rgba(219, 220, 221, .8); /* Default: rgba(52, 152, 219, .8) */
     --default-hover-color: rgba(41, 128, 185, .8); /* Default: rgba(41, 128, 185, .8)*/
     --transparency: rgba(0, 0, 0, .6); /* Default: rgba(0, 0, 0, .6)*/
     --dimmed: .5; 
