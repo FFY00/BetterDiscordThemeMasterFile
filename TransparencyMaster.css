@@ -58,22 +58,10 @@
 .chat-3bRxxu .divider-3gKybi span,
 .chat-3bRxxu .search-results-wrap,
 .chat-3bRxxu .search-results-wrap .channel-name,
+.chat-3bRxxu .markup-2BOw-j > pre code,
 .modal-1UGdnR .headerFill-adLl4x,
 .modal-1UGdnR .footer-2yfCgX {
     background: none !important;
-}
-
-.tooltip {
-    z-index: 99999 !important;
-    background-color: var(--default-color) !important;
-}
-
-.tooltip.tooltip-top:after {
-    border-top-color: var(--default-color) !important;
-}
-
-.tooltip.tooltip-bottom:after {
-    border-bottom-color: var(--default-color) !important;
 }
 
 .contextMenu-HLZMGh,
@@ -150,10 +138,6 @@
     cursor: default !important;
 }
 
-#bd-pub-li .guildInner-3DSoA4 a {
-    margin: 0 auto;
-}
-
 #bd-pub-li .guildInner-3DSoA4 a #bd-pub-button {
     background-color: var(--transparency) !important;
     border-radius: 5px;
@@ -168,55 +152,21 @@
 
 .guildsWrapper-5TJh6A {
     background-color: var(--transparency) !important;
-    width: 125px;
-}
-
-.guildsWrapper-5TJh6A > .scrollerWrap-1IAIlv {
-    width: 150px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH {
-    display: flex;
-    flex-flow: row wrap;
-    padding-left: 0;
-    align-content: flex-start;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .dms-rcsEnV {
-    width: 100%;
-    display: flex;
-    flex-flow: row wrap;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH > .friendsOnline-_wi_fM {
     color: var(--secondary-text) !important;
-	position: relative;
-    width: 100%;
-    margin: auto;
-    margin-top: 5px;
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH > .guildsAdd-21_IdK {
     background: var(--transparency) !important;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child {
-    position: relative; 
-    left: 0;
-    margin: auto;
-    margin-top: 15px;
-}
-
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
-    position: relative;
-    margin-left: 8px;
-    margin-top: 8px;
-}
-
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr::before {
     left: -2px;
     top: 5px;
     z-index:9000;
+    background: var(--default-color);
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.selected-ML3OIq::before {
@@ -302,7 +252,8 @@
 .chat-3bRxxu .attachment-33OFj0,
 .chat-3bRxxu .searchBar-2_Yu-C,
 .chat-3bRxxu .search-results-wrap .search-header,
-.chat-3bRxxu .search-results-wrap .search-result-message {
+.chat-3bRxxu .search-results-wrap .search-result-message,
+.chat-3bRxxu .markup-2BOw-j > pre {
     background-color: var(--transparency) !important;
 }
 
@@ -504,7 +455,7 @@
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .flex-1xMQg5,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd .message-2qRu38,
-.modal-1UGdnR .button-38aScr:not(.colorRed-1TFJan):not(.lookLink-9FtZy-) {
+.modal-1UGdnR .button-38aScr:not(.colorRed-1TFJan):not(.actionButton-3W1xZa):not(.lookLink-9FtZy-):not(.close-18n9bP) {
     background: var(--transparency) !important;
 }
 
@@ -534,12 +485,13 @@
     border-bottom-color: var(--primary-text) !important;
 }
 
-.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6) {
+.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):not(.close-18n9bP) {
     background-color: var(--default-color) !important;
 }
 
-.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):hover {
+.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):hover {
     background-color: var(--default-hover-color) !important;
+    color: var(--primary-text);
 }
 
 /* BD Toast
@@ -547,4 +499,24 @@
 
 .bd-toasts .bd-toast {
     background-color: var(--transparency);
+}
+
+/* Tooltip
+   ========================================================================== */
+
+.tooltip {
+    z-index: 99999 !important;
+    background-color: var(--default-color) !important;
+}
+
+.tooltip.tooltip-top:after {
+    border-top-color: var(--default-color) !important;
+}
+
+.tooltip.tooltip-bottom:after {
+    border-bottom-color: var(--default-color) !important;
+}
+
+.tooltip.tooltip-right:after {
+    border-right-color: var(--default-color) !important;
 }
