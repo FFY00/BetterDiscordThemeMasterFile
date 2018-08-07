@@ -1,5 +1,4 @@
-Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS
-
+## Info
 This theme is always up to date and constantly monitored.
 
 You can use this for your base transparency theme.
@@ -18,7 +17,7 @@ Zankokuhime#5572, ka1412#6390, NotWhoYouThink#9443, DarkNeko97#9680, moff#0243
 
 ## Installing Transparency Theme
 
-Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
+Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS. Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
 
 ## Themes/Support/Suggestions
 
