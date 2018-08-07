@@ -1,35 +1,16 @@
 /* Scrollbar
    ========================================================================== */
 
+::-webkit-scrollbar-track-piece, 
+::-webkit-scrollbar-track {
+    background: transparent !important;
+    border-color: transparent !important;
+}
+
+::-webkit-scrollbar-thumb,
 ::-webkit-scrollbar-thumb {
-    border-color: transparent !important; 
-    background: var(--transparency) !important;
-    border-radius: 0 !important;
-} 
-
-::-webkit-scrollbar {
-    border-color: transparent !important; 
-    background: none !important;
-}
-
-::-webkit-scrollbar-track-piece {
-    border-color: transparent !important; 
-    background: none !important;
-} 
-
-::-webkit-scrollbar-corner {
-    display: none !important;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-thumb {
-    border-color: transparent !important; 
-    background: var(--transparency) !important;
-    border-radius: 0 !important;
-}
-
-.scroller-wrap .scroller::-webkit-scrollbar-track-piece {
-    border-color: transparent !important; 
-    background: none !important;
+    background-color: var(--transparency) !important;
+    border-color: transparent !important;
 }
 
 /* Fixes/Resets
@@ -66,7 +47,8 @@
 }
 
 .contextMenu-HLZMGh,
-.popout-3sVMXz {
+.popout-3sVMXz,
+.chat-3bRxxu .autocomplete-1vrmpx {
     z-index: 9999 !important;
 }
 
