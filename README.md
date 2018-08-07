@@ -35,4 +35,3 @@ You can clear the Discord cache by opening File Explorer, typing `%APPDATA%/Disc
 ![screeny 5](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/5.png)
 ![screeny 6](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/6.png)
 ![screeny 7](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/7.png)
-![screeny 8](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/8.png)
