@@ -60,7 +60,8 @@
 .chat-3bRxxu .search-results-wrap .channel-name,
 .chat-3bRxxu .markup-2BOw-j > pre code,
 .modal-1UGdnR .headerFill-adLl4x,
-.modal-1UGdnR .footer-2yfCgX {
+.modal-1UGdnR .footer-2yfCgX,
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     background: none !important;
 }
 
@@ -71,9 +72,13 @@
 
 .container-1UB9sr,
 .channelTextArea-rNsIhG,
+.private-channels .search-bar .search-bar-inner,
 .modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
 .modal-1UGdnR .tabBarContainer-1s1u-z,
 .modal-1UGdnR .userInfoSection-2acyCx,
+.modal-3HD5ck .search-bar,
+.modal-3HD5ck .search-bar .search-bar-inner,
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G,
 .userPopout-3XzG_A .footer-1fjuF6,
 .ui-standard-sidebar-view .tools .btn-close {
     border: 0 !important;
@@ -90,9 +95,16 @@
 .channels-Ie2l6A .container-2Rl01u .header-2o-2hj,
 .title-3qD0b-,
 .searchBar-2_Yu-C,
+.private-channels .search-bar,
+.guildsWrapper-5TJh6A .unreadMentionsBar-1VrBNe,
 .chat-3bRxxu .search-results-wrap .search-header,
 .chat-3bRxxu .search-results-wrap .search-result-message,
-.modal-1UGdnR .footer-2yfCgX {
+.modal-1UGdnR .footer-2yfCgX,
+.modal-3HD5ck .search-bar,
+.modal-3HD5ck .search-bar .search-bar-inner,
+.modal-3HD5ck .separator-6YbWrc,
+.messagesPopoutWrap-1MQ1bW .header-ykumBX,
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     box-shadow: none !important;
 }
 
@@ -124,6 +136,21 @@
     margin-top: 0;
     padding-top: 4px;
     background: var(--transparency) !important;
+}
+
+.titleBar-AC4pGV .wordmark-2iDDfm::after {
+    /* For credits don't remove */
+    display: inline-block;
+    position: absolute;
+    top: 5px;
+    left: 70px;
+    width: 250px;
+    height: 16px;
+    content: "Themed by _Twiistrz#8016";
+    color: #fff;
+    font-weight: bold;
+    font-size: 13px;
+    z-index: 999;
 }
 
 /* Guilds/Server Selector
@@ -223,10 +250,14 @@
 
 /* Private Channels
    ========================================================================== */
-
+   
 .private-channels .channel.selected a,
 .private-channels .channel:hover a {
     background: var(--transparency) !important;
+}
+
+.private-channels .search-bar ::-webkit-input-placeholder {
+    color: var(--primary-text) !important;
 }
 
 .private-channels .channel .channel-name {
@@ -241,6 +272,14 @@
 
 .private-channels .channel .channel-activity {
     color: var(--secondary-text) !important;
+}
+
+.private-channels .search-bar .search-bar-inner {
+    background: var(--default-color) !important;
+}
+
+.private-channels .search-bar:hover .search-bar-inner {
+    background: var(--default-hover-color) !important;
 }
 
 /* Chat Area
@@ -441,11 +480,23 @@
 /* Modal Popout
    ========================================================================== */
 
+.modal-3HD5ck,
 .modal-1UGdnR .inner-1JeGVc > .flex-1xMQg5,
-.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck {
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck,
+.messagesPopoutWrap-1MQ1bW {
     background: var(--bg-popout) center/cover no-repeat;
 }
 
+.modal-3HD5ck .footerSeparator-Zin1Mp {
+    display: none;
+}
+
+.modal-3HD5ck .friendWrapper-2fdY14 .friendSelected--wQP3f,
+.modal-3HD5ck .header-1R_AjF,
+.modal-3HD5ck .notFriends-sbKbp1,
+.modal-3HD5ck .scrollerWrap-2lJEkd,
+.modal-3HD5ck .footer-1W7DZI,
+.modal-3HD5ck .search-bar,
 .modal-1UGdnR .topSectionNormal-2-vo2m,
 .modal-1UGdnR .body-3ND3kc,
 .modal-1UGdnR .body-3ND3kc .note-QfFU8y textarea:focus,
@@ -455,7 +506,12 @@
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .flex-1xMQg5,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd .message-2qRu38,
-.modal-1UGdnR .button-38aScr:not(.colorRed-1TFJan):not(.actionButton-3W1xZa):not(.lookLink-9FtZy-):not(.close-18n9bP) {
+.modal-1UGdnR .button-38aScr:not(.colorRed-1TFJan):not(.actionButton-3W1xZa):not(.lookLink-9FtZy-):not(.close-18n9bP),
+.messagesPopoutWrap-1MQ1bW .header-ykumBX,
+.messagesPopoutWrap-1MQ1bW .scroller-wrap,
+.messagesPopoutWrap-1MQ1bW .footer-SRC48P,
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G,
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug .jumpButton-3DTcS_ {
     background: var(--transparency) !important;
 }
 
@@ -463,13 +519,16 @@
     background-color: var(--default-color) !important;
 }
 
+.modal-3HD5ck .notFriends-sbKbp1,
 .modal-1UGdnR .body-3ND3kc .userInfoSectionHeader-CBvMDh,
 .modal-1UGdnR .tabBarContainer-1s1u-z .tabBarItem-1b8RUP,
-.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .listName-3w10cx {
+.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .listName-3w10cx,
+.messagesPopoutWrap-1MQ1bW .emptyPlaceholder-1zh-Eu .body-bvcIjN {
     color: var(--primary-text) !important;
 }
 
-.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .guildNick-3uAm3i {
+.modal-1UGdnR .listRow-hutiT_ .listRowContent-3Kih4Q .guildNick-3uAm3i,
+.messagesPopoutWrap-1MQ1bW .tip-2ab612 {
     color: var(--secondary-text) !important;
 }
 
@@ -492,6 +551,16 @@
 .modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):hover {
     background-color: var(--default-hover-color) !important;
     color: var(--primary-text);
+}
+
+.modal-3HD5ck .header-1R_AjF,
+.messagesPopoutWrap-1MQ1bW .header-ykumBX {
+    border-radius: 5px 5px 0 0;
+}
+
+.modal-3HD5ck .footer-1W7DZI,
+.messagesPopoutWrap-1MQ1bW .footer-SRC48P {
+    border-radius: 0 0 5px 5px;
 }
 
 /* BD Toast
