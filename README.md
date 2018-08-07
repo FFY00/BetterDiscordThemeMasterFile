@@ -1,5 +1,5 @@
 ## Info
-This theme is always up to date and constantly monitored.
+This theme is always up to date and constantly maintained.
 
 You can use this for your base transparency theme.
 
