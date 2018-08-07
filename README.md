@@ -3,15 +3,14 @@ This theme is always up to date and constantly maintained.
 
 You can use this for your base transparency theme.
 
-If you're using my theme don't forget to hit that star button above and message me if you want to be listed below.
+If you're using my theme don't forget to hit that star button above.
 
-Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. Credits to:
+Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. 
+
+## Special thanks and credits
 - Juicysteak117#1835
 - Satoru#4997
 - Asteria#5675
-
-## Current discord users using my theme
-Zankokuhime#5572, ka1412#6390, NotWhoYouThink#9443, DarkNeko97#9680, moff#0243
 
 ## Installing Transparency Theme
 
