@@ -2,6 +2,8 @@ Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS
 
 If you have any question or suggestion just message on discord to _Twiistrz#8016
 
+If you're using my theme don't for get to hit that star button above and message me if you want to be listed below.
+
 Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. Credits to:
 - Juicysteak117#1835
 - Satoru#4997
