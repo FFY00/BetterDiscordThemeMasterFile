@@ -2,7 +2,7 @@ Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS
 
 This theme is always up to date and constantly monitored.
 
-You can use this to for your base transparency theme.
+You can use this for your base transparency theme.
 
 If you have any question or suggestion just message on discord to _Twiistrz#8016
 
