@@ -16,6 +16,10 @@
 /* Fixes/Resets
    ========================================================================== */
 
+body {
+    font-family: var(--font-family), Whiteney, Helvetica Neue, Helvetica, Arial, sans-serif !important;
+}
+
 #friends .headerBar-UHpsPw,
 #bd-pub-li .guildInner-3DSoA4,
 .content-yTz4x3,
@@ -61,18 +65,21 @@
 .modal-1UGdnR .tabBarContainer-1s1u-z,
 .modal-1UGdnR .userInfoSection-2acyCx,
 .modal-3HD5ck .search-bar,
+.modal-1UGdnR .footer-2yfCgX,
 .modal-3HD5ck .search-bar .search-bar-inner,
 .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G,
 .userPopout-3XzG_A .footer-1fjuF6,
 .ui-standard-sidebar-view .tools .btn-close,
-.chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6 {
+.chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.contextMenu-HLZMGh .itemGroup-1tL0uz {
     border: 0 !important;
 }
 
 .newMessagesBar-mujexs,
 .base-3dtUhz,
 .emojiPicker-3m1S-j .header-1nkwgG .searchBar-2_Yu-C,
-.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd {
+.modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd,
+.modal-1UGdnR .content-2BXhLs {
     border-radius: 0 !important;
 }
 
@@ -84,10 +91,10 @@
 .guildsWrapper-5TJh6A .unreadMentionsBar-1VrBNe,
 .chat-3bRxxu .search-results-wrap .search-header,
 .chat-3bRxxu .search-results-wrap .search-result-message,
-.modal-1UGdnR .footer-2yfCgX,
 .modal-3HD5ck .search-bar,
 .modal-3HD5ck .search-bar .search-bar-inner,
 .modal-3HD5ck .separator-6YbWrc,
+.modal-1UGdnR .footer-2yfCgX,
 .messagesPopoutWrap-1MQ1bW .header-ykumBX,
 .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
     box-shadow: none !important;
@@ -248,6 +255,7 @@
     background-color: var(--default-color) !important;
 }
 
+.channels-Ie2l6A .actionIcon-2Hi9ZG,
 .channels-Ie2l6A .colorHoveredText-OZnAgu.icon-sxakjD .foreground-2W-aJk,
 .channels-Ie2l6A .colorSelectedText-1y4Wvs.icon-sxakjD .foreground-2W-aJk {
     opacity: 1;
@@ -415,6 +423,7 @@
 .ui-standard-sidebar-view .card-FDVird .game-name-input:focus,
 .ui-standard-sidebar-view .user-settings-games .not-detected,
 .ui-standard-sidebar-view .switch-3wwwcV,
+.ui-standard-sidebar-view .searchBar-1MOL6S,
 .ui-standard-sidebar-view .ui-switch,
 .ui-standard-sidebar-view .card-KeAWkA,
 .ui-standard-sidebar-view .tools .btn-close,
@@ -487,6 +496,22 @@
     color: var(--primary-text) !important;
 }
 
+/* Menu Popout
+   ========================================================================== */
+
+.popout-3sVMXz {
+    background: var(--bg-popout) center/cover no-repeat;
+}
+
+.popout-3sVMXz .menu-Sp6bN1 .separator-2zcjq8 {
+    display: none !important;
+}
+
+.popout-3sVMXz .menu-Sp6bN1,
+.popout-3sVMXz .menu-Sp6bN1 .item-1GzJrl:hover {
+    background: var(--transparency);
+}
+
 /* User Popout
    ========================================================================== */
 
@@ -536,12 +561,19 @@
 .modal-1UGdnR .body-3ND3kc .note-QfFU8y textarea:focus,
 .modal-1UGdnR .connectedAccounts-repVzS > .flex-1xMQg5,
 .modal-1UGdnR .topSectionPlaying-1J5E4n,
+.modal-1UGdnR .topSectionSpotify-1lI0-P,
 .modal-1UGdnR .tabBarContainer-1s1u-z,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .flex-1xMQg5,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck > .scrollerWrap-2lJEkd .message-2qRu38,
 .modal-1UGdnR .button-38aScr:not(.colorRed-1TFJan):not(.actionButton-3W1xZa):not(.lookLink-9FtZy-):not(.close-18n9bP):not(.emojiButtonNormal-TdumYh):not(.emojiButtonHovered-1rWNal),
 .modal-1UGdnR .wrapperHover-1GktnT,
+.modal-1UGdnR .switch-3wwwcV,
+.modal-1UGdnR .item-26Dhrx:not([style*="background-color: rgb(114, 137, 218)"]),
+.modal-1UGdnR .select-2TCrqx .Select-control,
+.modal-1UGdnR .override-2YgiXd:hover,
+.modal-1UGdnR .inputDefault-_djjkz,
+.modal-1UGdnR .footer-2yfCgX,
 .messagesPopoutWrap-1MQ1bW .header-ykumBX,
 .messagesPopoutWrap-1MQ1bW .scroller-wrap,
 .messagesPopoutWrap-1MQ1bW .footer-SRC48P,
@@ -591,7 +623,8 @@
     border-bottom-color: var(--primary-text) !important;
 }
 
-.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):not(.close-18n9bP):not(.emojiButtonNormal-TdumYh):not(.emojiButtonHovered-1rWNal) {
+.modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):not(.close-18n9bP):not(.emojiButtonNormal-TdumYh):not(.emojiButtonHovered-1rWNal),
+.modal-1UGdnR .switch-3wwwcV.valueChecked-m-4IJZ {
     background-color: var(--default-color) !important;
 }
 
@@ -643,6 +676,7 @@
 .tooltip {
     z-index: 99999 !important;
     background-color: var(--default-color) !important;
+    color: var(--primary-text) !important;
 }
 
 .tooltip.tooltip-top:after {
