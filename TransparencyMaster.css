@@ -199,13 +199,13 @@
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr .guildInner-3DSoA4 {
     border: var(--unread-border-size) solid var(--default-color);
-    width: calc(var(--unread-border-size) * 2 - 50px);
-    height: calc(var(--unread-border-size) * 2 - 50px);
+    width: calc(50px - var(--unread-border-size) * 2);
+    height: calc(50px - var(--unread-border-size) * 2); 
 }
 
 .guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ.unread-qLkInr .guildInner-3DSoA4 .iconSizeLarge-161qtT {
-    width: calc(var(--unread-border-size) * 2 - 50px);
-    height: calc(var(--unread-border-size) * 2 - 50px);
+    width: calc(50px - var(--unread-border-size) * 2);
+    height: calc(50px - var(--unread-border-size) * 2);
 }
 
 
