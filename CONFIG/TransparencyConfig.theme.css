@@ -14,21 +14,22 @@
 /* Enable Server Grid 2 Column - Comment out to disable
    ========================================================================== */
 
-/* @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css);
+/* @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css); /* new */
 
 /* Configuration
    ========================================================================== */
 
-:root {
-    --bg-app: url(https://images8.alphacoders.com/631/631739.jpg); /* Edit this to change your main background */
-    --bg-popout: url(https://images3.alphacoders.com/734/734139.png); /* Edit this to change your popouts and modals background */
-    --bg-home-btn: url(https://images3.alphacoders.com/734/734139.png); /* Edit this to change your home button background */
+   :root {
+    --bg-app: url(https://images8.alphacoders.com/631/631739.jpg);
+    --bg-popout: url(https://i.imgur.com/kZn7d4b.gif);
+    --bg-home-btn: url(https://cdn.discordapp.com/avatars/266897885533175808/4cb40d875f3d584e76343486742aeb0b.png?size=2048);
     --primary-text: #ffffff; /* Default: #ffffff */
     --secondary-text: #dddddd; /* Default: #dddddd */
-    --default-color: rgba(219, 220, 221, .8); /* Default: rgba(52, 152, 219, .8) */
+    --default-color: rgba(52, 152, 219, .8); /* Default: rgba(52, 152, 219, .8) */
     --default-hover-color: rgba(41, 128, 185, .8); /* Default: rgba(41, 128, 185, .8)*/
     --transparency: rgba(0, 0, 0, .6); /* Default: rgba(0, 0, 0, .6)*/
-    --dimmed: .5; /* Edit this to change the dim of channels text and other dim */
+    --unread-border-size: 3px; /* Default: 3px, The server list notification */ /* new */
+    --dimmed: .5; 
 }
 
 /* Your Custom CSS
