@@ -1,4 +1,6 @@
 ## Info
+![Up to Date](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/up-to-date.png)
+
 This theme is always up to date and constantly maintained.
 
 You can use this for your base transparency theme.
