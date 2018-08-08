@@ -7,11 +7,6 @@ If you're using my theme don't forget to hit that star button above. Stars are m
 
 Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. 
 
-## Special thanks and credits
-- Juicysteak117#1835
-- Satoru#4997
-- Asteria#5675
-
 ## Installing Transparency Theme
 
 Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS. Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
