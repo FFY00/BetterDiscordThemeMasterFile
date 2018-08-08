@@ -12,12 +12,12 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS. Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
 
 ## Installing a Theme
-1 -> Download a theme with the extension of ".theme.css"
-2 -> Go to User Settings->Themes
-3 -> Click the "Open Theme Folder" button
-4 -> Drag the theme from your downloads folder to the folder that you just opened with the button
-5 -> Restart Discord by pressing CTRL+R or CMD+R if youre on MacOS
-6 -> Go back to the User Settings and enable the theme/plugin
+1. Download a theme with the extension of ".theme.css"
+2. Go to User Settings->Themes
+3. Click the "Open Theme Folder" button
+4. Drag the theme from your downloads folder to the folder that you just opened with the button
+5. Restart Discord by pressing CTRL+R or CMD+R if youre on MacOS
+6. Go back to the User Settings and enable the theme/plugin
 
 ## Themes/Support/Suggestions
 
