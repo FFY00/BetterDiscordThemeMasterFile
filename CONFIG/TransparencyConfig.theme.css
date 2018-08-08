@@ -11,6 +11,11 @@
  * If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload 
 **/
 
+/* Enable Server Grid 2 Column - Comment out to disable
+   ========================================================================== */
+
+/* @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css);
+
 /* Configuration
    ========================================================================== */
 
@@ -26,11 +31,5 @@
     --dimmed: .5; /* Edit this to change the dim of channels text and other dim */
 }
 
-/* Enable Server Grid 2 Column - Comment out to disable
-   ========================================================================== */
-#@import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css);
-
 /* Your Custom CSS
    ========================================================================== */
-
-
