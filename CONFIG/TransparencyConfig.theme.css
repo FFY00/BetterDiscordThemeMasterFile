@@ -1,5 +1,4 @@
 //META {"name":"Transparency Theme","description":"If you have any question or suggestion just message me at discord _Twiistrz#8016","author":"_Twiistrz#8016","version":"Config"}*//{}
-@import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/TransparencyMaster.css);
 
 /**
  * To make editing this theme easier I recommend using Notepad++ , you can download it for free here - https://notepad-plus-plus.org/download/ 
@@ -11,24 +10,35 @@
  * If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload 
 **/
 
-/* Enable Server Grid 2 Column - Comment out to disable
+/* Import Custom Font
    ========================================================================== */
 
-/* @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css); /* new */
+@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+
+/* Import Transparency Master File
+   ========================================================================== */
+
+@import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/TransparencyMaster.css);
+
+/* Server Grid 2 Column - Comment out to disable
+   ========================================================================== */
+
+/* @import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/Transparency2Grid.css);
 
 /* Configuration
    ========================================================================== */
 
-   :root {
+:root {
+    --font-family: 'Open Sans'; /* Default: Whitney */ 
     --bg-app: url(https://images8.alphacoders.com/631/631739.jpg);
     --bg-popout: url(https://i.imgur.com/kZn7d4b.gif);
     --bg-home-btn: url(https://cdn.discordapp.com/avatars/266897885533175808/4cb40d875f3d584e76343486742aeb0b.png?size=2048);
     --primary-text: #ffffff; /* Default: #ffffff */
     --secondary-text: #dddddd; /* Default: #dddddd */
-    --default-color: rgba(52, 152, 219, .8); /* Default: rgba(52, 152, 219, .8) */
-    --default-hover-color: rgba(41, 128, 185, .8); /* Default: rgba(41, 128, 185, .8)*/
+    --default-color: rgba(75, 207, 250,0.9); /* Default: rgba(52, 152, 219, .8) */
+    --default-hover-color: rgba(15, 188, 249,0.9); /* Default: rgba(41, 128, 185, .8)*/
     --transparency: rgba(0, 0, 0, .6); /* Default: rgba(0, 0, 0, .6)*/
-    --unread-border-size: 3px; /* Default: 3px, The server list notification */ /* new */
+    --unread-border-size: 3px; /* Default: 3px, The server list notification */ 
     --dimmed: .5; 
 }
 
