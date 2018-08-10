@@ -71,6 +71,7 @@ body {
 .userPopout-3XzG_A .footer-1fjuF6,
 .ui-standard-sidebar-view .tools .btn-close,
 .chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.chat-3bRxxu .containerCozyBounded-1rKFAn .dividerEnabled-2TTlcf,
 .contextMenu-HLZMGh .itemGroup-1tL0uz {
     border: 0 !important;
 }
@@ -309,12 +310,18 @@ body {
 .chat-3bRxxu .markup-2BOw-j > pre,
 .chat-3bRxxu .hasMore-3e72_v > button,
 .chat-3bRxxu .wrapper-35wsBm,
-.chat-3bRxxu .wrapperHover-1GktnT {
+.chat-3bRxxu .wrapperHover-1GktnT,
+.chat-3bRxxu .containerCozyBounded-1rKFAn{
     background-color: var(--transparency) !important;
 }
 
 .chat-3bRxxu .isMentioned-N-h9aa {
     background: rgba(250,166,26,.1) !important;
+}
+
+.chat-3bRxxu .containerCozyBounded-1rKFAn {
+    margin: 24px 0;
+    border-radius: 5px;
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs {
