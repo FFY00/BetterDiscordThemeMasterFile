@@ -13,7 +13,7 @@
 /* Import Custom Font
    ========================================================================== */
 
-@import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
+/* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
 /* Import Transparency Master File
    ========================================================================== */
@@ -29,18 +29,17 @@
    ========================================================================== */
 
 :root {
-    --font-family: 'Open Sans'; /* Default: Whitney */ 
-    --bg-app: url(https://images8.alphacoders.com/631/631739.jpg);
-    --bg-popout: url(https://i.imgur.com/kZn7d4b.gif);
-    --bg-home-btn: url(https://cdn.discordapp.com/avatars/266897885533175808/4cb40d875f3d584e76343486742aeb0b.png?size=2048);
+    --font-family: ''; /* Default: Whitney */ 
+    --bg-app: url(https://i.imgur.com/IczDl7L.jpg);
+    --bg-popout: url(https://i.imgur.com/i5dtERt.jpg);
+    --bg-home-btn: url(https://i.imgur.com/9ozkqSQ.png);
     --primary-text: #ffffff; /* Default: #ffffff */
     --secondary-text: #dddddd; /* Default: #dddddd */
     --default-color: rgba(75, 207, 250,0.9); /* Default: rgba(52, 152, 219, .8) */
     --default-hover-color: rgba(15, 188, 249,0.9); /* Default: rgba(41, 128, 185, .8)*/
-    --transparency: rgba(0, 0, 0, .6); /* Default: rgba(0, 0, 0, .6)*/
+    --transparency: rgba(0, 0, 0, .7); /* Default: rgba(0, 0, 0, .6)*/
     --unread-border-size: 3px; /* Default: 3px, The server list notification */ 
-    --dimmed: .5; 
+    --dimmed: .5;
 }
-
 /* Your Custom CSS
    ========================================================================== */
