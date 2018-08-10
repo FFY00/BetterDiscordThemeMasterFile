@@ -6,16 +6,16 @@
 
 :root {
     --font-family: ''; /* Default: Whitney */ 
-    --bg-app: url(https://tranquil-earth.co.uk/uploads/1164/incredible-group-full-hd-wallpaper-and-background-image-pics-of-anime-girl-white-hair-popular-with-black-braids-ideas.jpg);
-    --bg-popout: url(https://juegosrev.com/wp-content/uploads/2017/06/Wallpapers-In-Black-Colour-Gallery-70-Plus-PIC-WPW202090.jpg);
-    --bg-home-btn: url(https://cdn.discordapp.com/avatars/266897885533175808/4cb40d875f3d584e76343486742aeb0b.png?size=2048);
+    --bg-app: url(https://i.imgur.com/IczDl7L.jpg);
+    --bg-popout: url(https://i.imgur.com/i5dtERt.jpg);
+    --bg-home-btn: url(https://i.imgur.com/9ozkqSQ.png);
     --primary-text: #ffffff; /* Default: #ffffff */
     --secondary-text: #dddddd; /* Default: #dddddd */
     --default-color: rgba(75, 207, 250,0.9); /* Default: rgba(52, 152, 219, .8) */
     --default-hover-color: rgba(15, 188, 249,0.9); /* Default: rgba(41, 128, 185, .8)*/
     --transparency: rgba(0, 0, 0, .7); /* Default: rgba(0, 0, 0, .6)*/
     --unread-border-size: 3px; /* Default: 3px, The server list notification */ 
-    --dimmed: .5; 
+    --dimmed: .5;
 }
 
 /* Scrollbar
@@ -91,6 +91,7 @@ body {
 .userPopout-3XzG_A .footer-1fjuF6,
 .ui-standard-sidebar-view .tools .btn-close,
 .chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
+.chat-3bRxxu .containerCozyBounded-1rKFAn .dividerEnabled-2TTlcf,
 .contextMenu-HLZMGh .itemGroup-1tL0uz {
     border: 0 !important;
 }
@@ -329,12 +330,18 @@ body {
 .chat-3bRxxu .markup-2BOw-j > pre,
 .chat-3bRxxu .hasMore-3e72_v > button,
 .chat-3bRxxu .wrapper-35wsBm,
-.chat-3bRxxu .wrapperHover-1GktnT {
+.chat-3bRxxu .wrapperHover-1GktnT,
+.chat-3bRxxu .containerCozyBounded-1rKFAn{
     background-color: var(--transparency) !important;
 }
 
 .chat-3bRxxu .isMentioned-N-h9aa {
     background: rgba(250,166,26,.1) !important;
+}
+
+.chat-3bRxxu .containerCozyBounded-1rKFAn {
+    margin: 24px 0;
+    border-radius: 5px;
 }
 
 .chat-3bRxxu .newMessagesBar-mujexs {
