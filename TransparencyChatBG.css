@@ -1,0 +1,12 @@
+/* Chat Background
+   ========================================================================== */
+   
+.chat-3bRxxu .containerCozyBounded-1rKFAn {
+    background: var(--transparency) !important;
+    margin: 24px 0;
+    border-radius: 5px;
+}
+
+.chat-3bRxxu .containerCozyBounded-1rKFAn .dividerEnabled-2TTlcf {
+    border: 0 !important;
+}
