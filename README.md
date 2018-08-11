@@ -9,7 +9,7 @@ If you're using my theme don't forget to hit that star button above. Stars are m
 
 Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. 
 
-Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS. Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
+Use the `TransparencyConfig.theme.css` and you're good to go.
 
 ## Download BandagedBD
 
