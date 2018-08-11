@@ -11,6 +11,22 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 
 Use the TRANSPARENCYCONFIG.THEME.CSS do not use TRANSPARENCYMASTER.CSS. Just download the [TransparencyConfig](https://github.com/Twiistrz/BetterDiscordThemeMasterFile/tree/master/CONFIG) file in CONFIG folder and you're good to go.
 
+## Download BandagedBD
+
+Use this for now: https://github.com/rauenzi/BetterDiscordApp/releases/
+
+Linux users use this - https://gist.github.com/ObserverOfTime/d7e60eb9aa7fe837545c8cb77cf31172
+
+## Uninstall BandagedBD
+
+Download this bat file and run it. https://gist.github.com/intrnl/09db7693fba679d78d9003d676e189c3
+
+If you don't want to run batch then open this link https://github.com/Jiiks/BetterDiscordApp/wiki/Uninstalling-BD
+
+If you couldn't find index.js.old or you got javascript error ./core not found
+then you have to edit index.js file and replace require('./core'); with require('./core.asar');
+or just open run (winkey+R) and paste this
+
 ## Installing a Theme
 1. Download a theme with the extension of ".theme.css"
 2. Go to User Settings->Themes
