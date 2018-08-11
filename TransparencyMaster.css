@@ -428,7 +428,9 @@ body {
 .ui-standard-sidebar-view .card-KeAWkA,
 .ui-standard-sidebar-view .tools .btn-close,
 .ui-standard-sidebar-view .item-3T2z1R:not(.denySelected-1mh2mZ):not(.passthroughSelected-1Eq0Kl):not(.allowSelected-25S_i5),
-.ui-standard-sidebar-view .card-2j1p1_ {
+.ui-standard-sidebar-view .card-2j1p1_,
+.ui-standard-sidebar-view .lookFilled-1Gx00P.colorPrimary-3b3xI6,
+.ui-standard-sidebar-view .defaultIndicator-G3c16x {
     background-color: var(--transparency) !important;
 }
 
@@ -539,6 +541,10 @@ body {
 /* Modal Popout
    ========================================================================== */
 
+.modal-1qeMox {
+    min-height: 0;
+}
+
 .modal-3HD5ck,
 .modal-1UGdnR .inner-1JeGVc > .flex-1xMQg5,
 .modal-1UGdnR .inner-1JeGVc > .modal-3HD5ck,
@@ -546,6 +552,7 @@ body {
     background: var(--bg-popout) center/cover no-repeat;
 }
 
+.modal-1UGdnR .divider-3WKGWk,
 .modal-3HD5ck .footerSeparator-Zin1Mp {
     display: none;
 }
