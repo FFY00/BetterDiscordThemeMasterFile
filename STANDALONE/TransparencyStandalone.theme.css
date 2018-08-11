@@ -184,7 +184,7 @@ body {
     left: 70px;
     width: 250px;
     height: 16px;
-    content: "Themed by _Twiistrz#8016";
+    content: "TransparencyTheme v2.6.1 by _Twiistrz#8016";
     color: #fff;
     font-weight: bold;
     font-size: 13px;
@@ -514,7 +514,7 @@ body {
 
 .ui-standard-sidebar-view:before {
     /* For credits don't remove */
-	content: 'Themed by _Twiistrz#8016';
+	content: 'TransparencyTheme v2.6.1 by _Twiistrz#8016';
 	color: #fff;
 	position: absolute;
 	right: 10px;
@@ -524,7 +524,7 @@ body {
 
 .ui-standard-sidebar-view #bd-settings-sidebar:after {
     /* For credits don't remove */
-	content: "Themed by _Twiistrz#8016";
+	content: "TransparencyTheme v2.6.1 by _Twiistrz#8016";
 	font-size: 12px; 
 	font-weight: 600; 
 	color: rgb(114, 118, 125); 
