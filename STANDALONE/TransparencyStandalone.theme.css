@@ -182,7 +182,7 @@ body {
     position: absolute;
     top: 5px;
     left: 70px;
-    width: 250px;
+    width: 280px;
     height: 16px;
     content: "TransparencyTheme v2.6.1 by _Twiistrz#8016";
     color: #fff;
@@ -524,7 +524,8 @@ body {
 
 .ui-standard-sidebar-view #bd-settings-sidebar:after {
     /* For credits don't remove */
-	content: "TransparencyTheme v2.6.1 by _Twiistrz#8016";
+    content: "TransparencyTheme v2.6.1 by _Twiistrz#8016";
+    display: inline-block;
 	font-size: 12px; 
 	font-weight: 600; 
 	color: rgb(114, 118, 125); 
