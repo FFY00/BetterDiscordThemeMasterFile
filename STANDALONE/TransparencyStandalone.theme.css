@@ -86,6 +86,7 @@ body {
 .ui-standard-sidebar-view .sidebar-region,
 .ui-standard-sidebar-view .content-region,
 .activityFeed-28jde9 .header-1RC2Wb,
+.activityFeed-28jde9 .headerBar-UHpsPw,
 .userPopout-3XzG_A .activity-11LB_k,
 .chat-3bRxxu form,
 .chat-3bRxxu .channelTextArea-1LDbYG .inner-zqa7da,
@@ -145,7 +146,8 @@ body {
 .modal-3HD5ck .separator-6YbWrc,
 .modal-1UGdnR .footer-2yfCgX,
 .messagesPopoutWrap-1MQ1bW .header-ykumBX,
-.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug {
+.messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G:hover .actionButtons-1sUUug,
+.activityFeed-28jde9 .headerBar-UHpsPw {
     box-shadow: none !important;
 }
 
@@ -525,7 +527,7 @@ body {
     background-color: var(--default-hover-color) !important;
 }
 
-/* Games Tab
+/* Activity Tab
    ========================================================================== */
 
 .activityFeed-28jde9,
