@@ -70,7 +70,7 @@ body {
 .modal-3HD5ck .search-bar .search-bar-inner,
 .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G,
 .userPopout-3XzG_A .footer-1fjuF6,
-.ui-standard-sidebar-view .tools .btn-close,
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR,
 .chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .contextMenu-HLZMGh .itemGroup-1tL0uz {
     border: 0 !important;
@@ -418,7 +418,7 @@ body {
 .ui-standard-sidebar-view .searchBar-1MOL6S,
 .ui-standard-sidebar-view .ui-switch,
 .ui-standard-sidebar-view .card-KeAWkA,
-.ui-standard-sidebar-view .tools .btn-close,
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR,
 .ui-standard-sidebar-view .item-3T2z1R:not(.denySelected-1mh2mZ):not(.passthroughSelected-1Eq0Kl):not(.allowSelected-25S_i5),
 .ui-standard-sidebar-view .card-2j1p1_,
 .ui-standard-sidebar-view .lookFilled-1Gx00P.colorPrimary-3b3xI6,
@@ -441,7 +441,7 @@ body {
 .ui-standard-sidebar-view .desc-2Dttbk,
 .ui-standard-sidebar-view .hoverRoll-YK53gQ,
 .ui-standard-sidebar-view .ui-switch-item .style-description,
-.ui-standard-sidebar-view .tools .esc-text {
+.ui-standard-sidebar-view .tools .keybind-KpFkfr {
     color: var(--secondary-text) !important;
 }
 
@@ -463,8 +463,8 @@ body {
 }
 
 .ui-standard-sidebar-view .button-38aScr:not(.lookLink-9FtZy-):not(.colorGreen-29iAKY):not(.colorRed-1TFJan):not(.deleteApp-dtfZIe):hover,
-.ui-standard-sidebar-view .tools .btn-close:hover,
-.ui-standard-sidebar-view .tools .btn-close:focus {
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR:hover,
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR:focus {
     background-color: var(--default-hover-color) !important;
 }
 
