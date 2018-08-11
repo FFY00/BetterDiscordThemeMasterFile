@@ -114,7 +114,7 @@ body {
 .modal-3HD5ck .search-bar .search-bar-inner,
 .messagesPopoutWrap-1MQ1bW .messageGroupWrapper-o-Zw7G,
 .userPopout-3XzG_A .footer-1fjuF6,
-.ui-standard-sidebar-view .tools .btn-close,
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR,
 .chat-3bRxxu .lookOutlined-3sRXeN.colorPrimary-3b3xI6,
 .contextMenu-HLZMGh .itemGroup-1tL0uz {
     border: 0 !important;
@@ -507,8 +507,8 @@ body {
 }
 
 .ui-standard-sidebar-view .button-38aScr:not(.lookLink-9FtZy-):not(.colorGreen-29iAKY):not(.colorRed-1TFJan):not(.deleteApp-dtfZIe):hover,
-.ui-standard-sidebar-view .tools .btn-close:hover,
-.ui-standard-sidebar-view .tools .btn-close:focus {
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR:hover,
+.ui-standard-sidebar-view .tools .closeButton-1tv5uR:focus {
     background-color: var(--default-hover-color) !important;
 }
 
