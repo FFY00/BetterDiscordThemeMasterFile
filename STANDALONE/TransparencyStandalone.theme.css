@@ -15,11 +15,6 @@
 
 /* @import url('https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i,800,800i&subset=cyrillic,cyrillic-ext,greek,greek-ext,latin-ext,vietnamese');
 
-/* Import Transparency Master File
-   ========================================================================== */
-
-@import url(https://rawgit.com/Twiistrz/BetterDiscordThemeMasterFile/master/TransparencyMaster.css);
-
 /* Server Grid 2 Column - Comment out to disable
     ========================================================================== */
 
@@ -381,16 +376,6 @@ body {
 
 .chat-3bRxxu .messages-3amgkR > .divider-3gKybi:before {
     height: 0 !important;
-}
-
-.chat-3bRxxu .messageCozy-2JPAPA .avatar-17mtNa {
-    margin: -2px 15px 20px;
-}
-
-.chat-3bRxxu .messageCozy-2JPAPA .avatar-17mtNa,
-.chat-3bRxxu .messageCozy-2JPAPA .avatar-17mtNa .image-33JSyf {
-    height: 50px;
-    width: 50px;
 }
 
 .chat-3bRxxu form .channelTextArea-1LDbYG {
