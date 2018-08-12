@@ -7,12 +7,11 @@
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/info.png" />
 </p>
 
-If you're using my theme don't forget to hit that star button above. Stars are much appreciated <3
-
-Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given. 
-
-Use the `TransparencyConfig.theme.css` and you're good to go.
-
+<p align="center">
+  If you're using my theme don't forget to hit that star button above. Stars are much appreciated <3<br/>
+  Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given.<br/>
+  Use the <code>TransparencyConfig.theme.css</code> and you're good to go.
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/addons.png" /><br/>
@@ -57,17 +56,18 @@ or just open run (winkey+R) and paste this
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/support-and-feedback.png" />
 </p>
 
-Make sure to have Dark mode enabled to make sure all things work correctly. These can be found under "Core" under BetterDiscord / BandagedBD settings.
-
+<p align="center">
+Make sure to have Dark mode enabled to make sure all things work correctly. These can be found under "Core" under BetterDiscord / BandagedBD settings.<br/><br/>
 If you find a problem or would like to give feedback/suggestions or need support with my themes or CSS in general feel free to send a direct message to me in discord _Twiistrz#8016.
-
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/quick-update.png" />
 </p>
 
-You can clear the Discord cache by opening File Explorer, typing `%APPDATA%/Discord/Cache` into the address bar, and then deleting everything therein.
-
+<p align="center">
+You can clear the Discord cache by opening File Explorer, typing <code>%APPDATA%/Discord/Cache</code> into the address bar, and then deleting everything therein.
+</p>
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/screenshots.png" />
