@@ -3,7 +3,7 @@
 
 This theme is always up to date and constantly maintained.
 
-You can use this for your base transparency theme.
+You can use this for your base theme.
 
 If you're using my theme don't forget to hit that star button above. Stars are much appreciated <3
 
