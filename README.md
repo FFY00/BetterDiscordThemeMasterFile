@@ -1,4 +1,6 @@
-![Up To Date](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/up-to-date.png)
+<p align="center">
+  <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/up-to-date.png">
+</p>
 
 ## Info
 If you're using my theme don't forget to hit that star button above. Stars are much appreciated <3
