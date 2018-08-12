@@ -2,6 +2,7 @@
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/up-to-date.png" />
 </p>
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/info.png" />
 </p>
@@ -12,10 +13,14 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 
 Use the `TransparencyConfig.theme.css` and you're good to go.
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/addons.png" /><br/>
-  Server Grid 2 Column (Fixed Version), Chat Background
 </p>
+
+- Server Grid 2 Column (Fixed Version)
+- Chat Background
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/bandagedbd.png" />
@@ -35,6 +40,7 @@ If you couldn't find index.js.old or you got javascript error ./core not found
 then you have to edit index.js file and replace require('./core'); with require('./core.asar');
 or just open run (winkey+R) and paste this
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/installing-theme.png" />
 </p>
@@ -46,6 +52,7 @@ or just open run (winkey+R) and paste this
 5. Restart Discord by pressing CTRL+R or CMD+R if youre on MacOS
 6. Go back to the User Settings and enable the theme/plugin
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/support-and-feedback.png" />
 </p>
@@ -54,11 +61,13 @@ Make sure to have Dark mode enabled to make sure all things work correctly. Thes
 
 If you find a problem or would like to give feedback/suggestions or need support with my themes or CSS in general feel free to send a direct message to me in discord _Twiistrz#8016.
 
+
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/quick-update.png" />
 </p>
 
 You can clear the Discord cache by opening File Explorer, typing `%APPDATA%/Discord/Cache` into the address bar, and then deleting everything therein.
+
 
 <p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/screenshots.png" />
