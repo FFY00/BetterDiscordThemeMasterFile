@@ -1,5 +1,5 @@
 ## Info
-![Up to Date](https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/up-to-date.png)
+<div style="display: inline-block;margin: 0 auto;text-align:center;"><img src ="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/SCREENSHOTS/up-to-date.png" /></div>
 
 This theme is always up to date and constantly maintained.
 
