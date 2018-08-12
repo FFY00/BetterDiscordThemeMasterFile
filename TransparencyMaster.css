@@ -627,7 +627,6 @@ body {
     border-radius: 50%;
 }
 
-.userPopout-3XzG_A .actionButton-VzECiy:hover,
 .userPopout-3XzG_A .actionButton-VzECiy.popout-open {
     background: var(--default-color) !important;
 }
