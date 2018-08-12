@@ -11,6 +11,11 @@ Shoutout to all the boys in #css-and-themes in BD2 for all the help they've give
 
 Use the `TransparencyConfig.theme.css` and you're good to go.
 
+## Transparency Theme Add-ons
+
+- Server Grid 2 Column (Fixed Version)
+- Chat Background
+
 ## Download BandagedBD
 
 Use this for now: https://github.com/rauenzi/BetterDiscordApp/releases/
