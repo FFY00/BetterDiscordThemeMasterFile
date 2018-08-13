@@ -538,8 +538,23 @@ body {
     color: var(--primary-text) !important;
 }
 
+.chat-3bRxxu .messages-3amgkR > .divider-3gKybi {
+	padding: 16px 0;
+}
+
 .chat-3bRxxu .messages-3amgkR > .divider-3gKybi:before {
     height: 0 !important;
+}
+
+.chat-3bRxxu .messages-3amgkR > .divider-3gKybi.dividerRed-MKoLlr > span,
+.chat-3bRxxu .messages-3amgkR > .divider-3gKybi:not(.red-1YQ4s7) span {
+	padding: 8px 12px 6px 12px !important;
+	line-height: 1em !important;
+}
+
+.chat-3bRxxu .messages-3amgkR > .divider-3gKybi > span {
+	padding: 2px 10px;
+	border-radius: 14px;
 }
 
 .chat-3bRxxu form .channelTextArea-1LDbYG {
