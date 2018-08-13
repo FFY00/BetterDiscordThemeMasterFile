@@ -536,6 +536,10 @@ body {
 /* COG View
    ========================================================================== */
 
+.ui-standard-sidebar-view .Select-menu-outer {
+    background: var(--bg-popout) center/cover no-repeat !important;
+}
+
 .ui-standard-sidebar-view,
 .ui-standard-sidebar-view .container-2VW0UT,
 .ui-standard-sidebar-view .itemDefault-3Jdr52:hover,
@@ -562,7 +566,9 @@ body {
 .ui-standard-sidebar-view .lookFilled-1Gx00P.colorPrimary-3b3xI6,
 .ui-standard-sidebar-view .defaultIndicator-G3c16x,
 .ui-standard-sidebar-view .bda-slist li,
-.ui-standard-sidebar-view .connectedAccounts-2-XP1G .accountBtnInner-sj5jLs {
+.ui-standard-sidebar-view .connectedAccounts-2-XP1G .accountBtnInner-sj5jLs,
+.ui-standard-sidebar-view .Select-menu-outer .Select-menu,
+.ui-standard-sidebar-view .Select-menu-outer .Select-menu .Select-option.is-selected {
     background-color: var(--transparency) !important;
 }
 
@@ -629,6 +635,15 @@ body {
 	right: 10px;
 	bottom: 7px;
 	opacity: 0.3;
+}
+
+.ui-standard-sidebar-view .checked-3_4uQ9 svg polyline {
+    stroke: var(--default-color) !important;
+}
+
+.ui-standard-sidebar-view .checked-3_4uQ9 {
+    background-color: var(--primary-text) !important;
+    border-color: var(--primary-text) !important;
 }
 
 /* Activity Tab
@@ -777,8 +792,9 @@ body {
 .modal-1UGdnR .quickswitcher-3JagVE,
 .messagesPopoutWrap-1MQ1bW,
 .uploadModal-2ifh8j,
-.searchPopout-1vUlP3 {
-    background: var(--bg-popout) center/cover no-repeat;
+.searchPopout-1vUlP3,
+.modal-1UGdnR .Select-menu-outer {
+    background: var(--bg-popout) center/cover no-repeat !important;
 }
 
 .modal-3HD5ck .friendWrapper-2fdY14 .friendSelected--wQP3f,
@@ -829,7 +845,9 @@ body {
 .searchPopout-1vUlP3 .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation,
 .searchPopout-1vUlP3 .calendarPicker-2yf6Ci .react-datepicker__day,
 .searchAnswer-3Dz2-q,
-.searchFilter-2ESiM3 {
+.searchFilter-2ESiM3,
+.modal-1UGdnR .Select-menu-outer .Select-menu,
+.modal-1UGdnR .Select-menu-outer .Select-menu .Select-option.is-selected {
     background-color: var(--transparency) !important;
 }
 
@@ -892,10 +910,10 @@ body {
 }
 
 .modal-3HD5ck .lookFilled-1Gx00P.colorBrand-3pXr91,
-.modal-3HD5ck .checked-3_4uQ9,
 .modal-1UGdnR .inner-1JeGVc .close-18n9bP:hover,
 .modal-1UGdnR .button-38aScr.colorBrand-3pXr91:not(.colorRed-1TFJan):not(.colorPrimary-3b3xI6):not(.actionButton-3W1xZa):not(.close-18n9bP):not(.emojiButtonNormal-TdumYh):not(.emojiButtonHovered-1rWNal),
 .modal-1UGdnR .switch-3wwwcV.valueChecked-m-4IJZ,
+.modal-1UGdnR [style*="background-color: rgb(114, 137, 218);"],
 .uploadModal-2ifh8j .footer-3mqk7D button.button-primary,
 .searchPopout-1vUlP3 .calendarPicker-2yf6Ci .react-datepicker__navigation.react-datepicker__navigation:hover,
 .searchPopout-1vUlP3 .datePicker--XZbmJ .datePickerHint-3Q1Udw .hintValue-29ny8Z {
@@ -976,13 +994,17 @@ body {
     background: var(--default-color) !important;
 }
 
-.modal-3HD5ck .checked-3_4uQ9,
 .uploadModal-2ifh8j .icon-kyxXVr.image-2yrs5j {
     border-color: var(--default-color) !important;
 }
 
 .modal-3HD5ck .checked-3_4uQ9 svg polyline {
-    stroke: rgb(255,255,255) !important;
+    stroke: var(--default-color) !important;
+}
+
+.modal-3HD5ck .checked-3_4uQ9 {
+    background-color: var(--primary-text) !important;
+    border-color: var(--primary-text) !important;
 }
 
 /* BD Toast
@@ -1015,4 +1037,20 @@ body {
 
 .tooltip.tooltip-left:after {
     border-left-color: var(--default-color) !important;
+}
+
+/* For MacOS
+   ========================================================================== */
+
+.typeMacOS-3EmCyP {
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    padding-left: 67px;
+    position: absolute;
+    width: 125px;
+    padding-bottom: 16px;
+}
+.macButton-c_Adir {
+   left: -54px;
+   position: relative;
 }
