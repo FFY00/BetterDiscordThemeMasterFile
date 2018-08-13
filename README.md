@@ -10,7 +10,7 @@
 <p align="center">
   If you're using my theme don't forget to hit that star button above. Stars are much appreciated <3<br/>
   Shoutout to all the boys in #css-and-themes in BD2 for all the help they've given.<br/>
-  Use the <a href="https://github.com/Twiistrz/TransparencyTheme/blob/master/TransparencyConfig.theme.css">TransparencyConfig.theme.css</a> and you're good to go.
+  Download <a href="https://github.com/Twiistrz/TransparencyTheme/blob/master/TransparencyConfig.theme.css">TransparencyConfig.theme.css</a> and you're good to go.
 </p>
 
 <p align="center">
