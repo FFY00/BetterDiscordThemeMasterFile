@@ -81,6 +81,7 @@ body {
 .chat-3bRxxu .search-results-wrap,
 .chat-3bRxxu .search-results-wrap .channel-name,
 .chat-3bRxxu .markup-2BOw-j > pre code,
+.chat-3bRxxu .wrapper-29NfPK,
 .modal-1UGdnR .headerFill-adLl4x,
 .modal-1UGdnR .footer-2yfCgX,
 .modal-1UGdnR .news-2KwXHF,
@@ -494,8 +495,13 @@ body {
 .chat-3bRxxu .wrapper-35wsBm,
 .chat-3bRxxu .wrapperHover-1GktnT,
 .chat-3bRxxu code.inline,
-.chat-3bRxxu .jumpToPresentBar-9P20AM {
+.chat-3bRxxu .jumpToPresentBar-9P20AM,
+.chat-3bRxxu .wrapper-29NfPK.minimum-2d6zH6 .actions-2vadYq .center-1Vp33r {
     background-color: var(--transparency) !important;
+}
+
+.chat-3bRxxu .video-1FfuMD {
+    background-color: transparent !important;
 }
 
 .chat-3bRxxu .buttonContainer-37UsAw > * {
