@@ -6,7 +6,7 @@
 	padding: 10px 0 !important;
 	margin: 15px 5px 15px 80px !important;
 	border-radius: 5px !important;
-	background: var(--transparency) !important;
+	background: rgba(var(--transparency-color),var(--transparency-alpha)) !important;
 }
 
 .chat-3bRxxu .containerCozyBounded-1rKFAn .divider-32i8lo {
@@ -37,13 +37,13 @@
 }
 
 .chat-3bRxxu .containerCozyBounded-1rKFAn .headerCozy-2N9HOL > .avatar-17mtNa:after {
-    content: "";
-    position: relative;
-    float: left;
-    left: 42px;
-    top: -28px;
-    width: 0;
-    height: 0;
-    border: 8px solid transparent;
-    border-right: 10px solid var(--transparency);
+	content: "";
+	position: relative;
+	float: left;
+	left: 35px;
+	top: -30px;
+	width: 0;
+	height: 0;
+	border: 10px solid transparent;
+	border-right: 15px solid rgba(var(--transparency-color),var(--transparency-alpha));
 }
