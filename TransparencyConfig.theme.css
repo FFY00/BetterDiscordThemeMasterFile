@@ -8,6 +8,8 @@
  * This is a valid link, https://i.imgur.com/rCqnrQ7.jpg 
  *
  * If you find an image I would STRONGLY recommend rehosting the image on imgur https://imgur.com/upload 
+ *
+ * Go to https://flatuicolors.com/ to find the color you want.
 **/
 
 /* Custom Font
@@ -30,15 +32,16 @@
    ========================================================================== */
 
 :root {
-    --font-family: ''; /* Default: Whitney */ 
-    --bg-app: url(https://i.imgur.com/IczDl7L.jpg);
+    --font-family: '';
+    --bg-app: url(https://static.zerochan.net/Darling.in.the.FranXX.full.2290919.jpg);
     --bg-popout: url(https://i.imgur.com/i5dtERt.jpg);
-    --bg-home-btn: url(https://i.imgur.com/9ozkqSQ.png);
-    --primary-text: #ffffff; /* Default: #ffffff */
-    --secondary-text: #dddddd; /* Default: #dddddd */
-    --default-color: rgba(75, 207, 250,0.9); /* Default: rgba(52, 152, 219, .8) */
-    --default-hover-color: rgba(15, 188, 249,0.9); /* Default: rgba(41, 128, 185, .8)*/
-    --transparency: rgba(0, 0, 0, .7); /* Default: rgba(0, 0, 0, .6)*/
-    --unread-border-size: 3px; /* Default: 3px, The server list notification */ 
-    --dimmed: .5;
+    --bg-homeButton: url(https://i.imgur.com/9ozkqSQ.png);
+    --text-primary: #fff;
+    --text-secondary: #ccc; /* Darker color of --text-primary */
+    --accent-color: #ff7979;
+    --accent-hover: #eb4d4b; /* Darker color of --accent-color */
+    --transparency-color: 0, 0, 0; /* Default: 0, 0, 0 */
+    --transparency-alpha: 0.7; /* Default: 0.7 */
+    --notification-borderSize: 3px; /* Default: 3px */
+    --opacity-dimmed: .5; /* Default: .5 */
 }
