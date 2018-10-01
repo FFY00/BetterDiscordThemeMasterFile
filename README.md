@@ -1,4 +1,9 @@
 <p align="center">
+  I've been busy and been kick to the discord server so will not update this anymore.
+  If you want me to still update this just create an issue what to update.
+</p>
+
+<p align="center">
   <img src="https://raw.githubusercontent.com/Twiistrz/BetterDiscordThemeMasterFile/master/IMAGES/up-to-date.png" />
 </p>
 
