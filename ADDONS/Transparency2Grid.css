@@ -1,46 +1,46 @@
 /* Server Grid 2 Column Add-on
    ========================================================================== */
 
-#bd-pub-li .guildInner-3DSoA4 a {
+#bd-pub-li .wrapper-2lTRaf a {
     margin: 0 auto;
 }
 
-.guildsWrapper-5TJh6A {
+.wrapper-1Rf91z {
     width: 125px;
 }
 
-.guildsWrapper-5TJh6A > .scrollerWrap-1IAIlv {
+.wrapper-1Rf91z > .scrollerWrap-1IAIlv {
     width: 150px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH {
+.wrapper-1Rf91z .scroller-2TZvBN {
     display: flex;
     flex-flow: row wrap;
     padding-left: 0;
     align-content: flex-start;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .dms-rcsEnV {
+.wrapper-1Rf91z .scroller-2TZvBN > .dms-rcsEnV {
     width: 100%;
     display: flex;
     flex-flow: row wrap;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .friendsOnline-_wi_fM {
+.wrapper-1Rf91z .scroller-2TZvBN > .friendsOnline-2JkivW {
     position: relative;
     width: 100%;
     margin: auto;
     margin-top: 5px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH > .guild-1EfMGQ:first-child {
-    position: relative; 
+.wrapper-1Rf91z .scroller-2TZvBN > .container-2td-dC:first-child {
+    position: relative;
     left: 0;
     margin: auto;
     margin-top: 15px;
 }
 
-.guildsWrapper-5TJh6A .guilds-1q_RqH .guild-1EfMGQ {
+.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC {
     position: relative;
     margin-left: 8px;
     margin-top: 8px;
