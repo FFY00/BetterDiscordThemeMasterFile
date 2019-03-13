@@ -4,10 +4,10 @@
 .chat-3bRxxu .search-results-wrap .channel-separator::before,
 .chat-3bRxxu .search-results-wrap .search-result::before,
 .chat-3bRxxu .search-results-wrap .search-result::after,
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before,
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.selected-nT-gM3::before,
-.wrapper-1Rf91z .scroller-2TZvBN > .container-2td-dC .homeIcon-1FoKUJ > g,
-.wrapper-1Rf91z .scroller-2TZvBN > .guildSeparator-3s64Iy,
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC.unread-2OHH1w::before,
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC.selected-nT-gM3::before,
+.wrapper-2lTRaf .scroller-2FKFPG > .container-2td-dC .homeIcon-tEMBK1 > g,
+.wrapper-2lTRaf .scroller-2FKFPG > .guildSeparator-3s64Iy,
 .messageGroupBlocked-3wrQQX ,
 .messageGroupBlockedBtn-1PBBh-,
 .modal-1UGdnR .divider-3WKGWk,
@@ -104,7 +104,7 @@
 .title-3qD0b-,
 .searchBar-2_Yu-C,
 .private-channels .search-bar,
-.wrapper-1Rf91z .unreadMentionsBar-1VrBNe,
+.wrapper-2lTRaf .unreadMentionsBar-1VrBNe,
 .chat-3bRxxu .search-results-wrap .search-header,
 .chat-3bRxxu .search-results-wrap .search-result-message,
 .modal-3HD5ck .search-bar,
@@ -326,36 +326,36 @@ body {
     text-align: center;
 }
 
-.wrapper-1Rf91z {
+.wrapper-2lTRaf {
     background-color: rgba(var(--transparency-color),var(--transparency-alpha)) !important;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN > .friendsOnline-2JkivW {
+.wrapper-2lTRaf .scroller-2FKFPG > .friendsOnline-2JkivW {
     color: var(--text-secondary) !important;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN > .circleIconButton-jET_ig {
+.wrapper-2lTRaf .scroller-2FKFPG > .circleIconButton-jET_ig {
     background: rgba(var(--transparency-color),var(--transparency-alpha)) !important;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w::before {
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC.unread-2OHH1w::before {
     left: -2px;
     top: 5px;
     z-index:9000;
     background: var(--accent-color);
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC .homeIcon-1FoKUJ {
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC .homeIcon-tEMBK1 {
     background: var(--bg-homeButton) no-repeat center/cover;
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w .wrapper-2lTRaf {
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC.unread-2OHH1w .wrapper-2lTRaf {
     border: var(--notification-borderSize) solid var(--accent-color);
     width: calc(50px - var(--notification-borderSize) * 2);
     height: calc(50px - var(--notification-borderSize) * 2);
 }
 
-.wrapper-1Rf91z .scroller-2TZvBN .container-2td-dC.unread-2OHH1w .wrapper-2lTRaf .iconSizeLarge-161qtT {
+.wrapper-2lTRaf .scroller-2FKFPG .container-2td-dC.unread-2OHH1w .wrapper-2lTRaf .iconSizeLarge-161qtT {
     width: calc(50px - var(--notification-borderSize) * 2);
     height: calc(50px - var(--notification-borderSize) * 2);
 }
